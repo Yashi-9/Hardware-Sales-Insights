@@ -1,1 +1,1 @@
-# Hardware-Sales-Insights | SQL | Powerc BI
+# Hardware-Sales-Insights | SQL | Power BI
