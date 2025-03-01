@@ -55,7 +55,7 @@ ORDER BY total_spent DESC;
 ~~~
 To sort customers by revenue and see who has contributed the most.
 
-3.Top Customer Segments by Revenue
+4.Top Customer Segments by Revenue
 ~~~
 SELECT 
 customer_code,
@@ -91,5 +91,32 @@ FROM (
     GROUP BY customer_code
 ) AS customer_segments
 GROUP BY customer_segment;
+~~~
+To find out which segment brings in the most revenue.
 
+6.Sales Trend by Market Location
+~~~
+SELECT 
+    market_code,
+    SUM(sales_amount) AS total_revenue,
+    COUNT(DISTINCT customer_code) AS unique_customers
+FROM transactions
+GROUP BY market_code
+ORDER BY total_revenue DESC;
+~~~
+
+Identifies which market  performs the  best.
+
+7.Sales trend by Zones
+~~~
+SELECT 
+    markets.zone,
+    SUM(transactions.sales_amount) AS total_revenue,
+    COUNT(DISTINCT transactions.customer_code) AS unique_customers
+FROM transactions
+join markets 
+on transactions.market_code=markets.markets_code
+GROUP BY markets.zone
+ORDER BY total_revenue DESC;
+~~~
 
