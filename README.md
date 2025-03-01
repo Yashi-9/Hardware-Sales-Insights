@@ -39,7 +39,7 @@ To identify types of customers
  2. Total Number of Customers:
  ~~~
 SELECT distinct count(*) AS total_customers 
-from customers;Top Customer Segments by Revenue
+from customers;
 ~~~
 
 There are 38 unique customers
@@ -49,7 +49,10 @@ There are 38 unique customers
 ~~~
 SELECT 
 customer_code,
-SUM(sales_amount) AS total_sales,
+SUM(CASE
+    WHEN t.currency = 'USD' THEN sales_amount * 87.4
+    ELSE sales_amount
+    END) AS  total_sales,
 RANK() OVER (ORDER BY SUM(sales_amount) DESC) AS sales_rank
 FROM transactions
 GROUP BY customer_code;
@@ -66,7 +69,10 @@ GROUP BY customer_type;
 ~~~
 SELECT 
 customer_code,
-SUM(sales_amount) AS total_spent,
+ SUM(CASE
+        WHEN t.currency = 'USD' THEN sales_amount * 83 
+        ELSE sales_amount
+    END) AS total_spent,
 CASE
         WHEN SUM(sales_amount) > 100000000 THEN 'High Value'
         WHEN SUM(sales_amount) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
@@ -76,7 +82,7 @@ FROM transactions
 GROUP BY customer_code
 ORDER BY total_spent DESC;
    ~~~
-To identify which segment contributes most to revenue.                                            
+To distribute customers into segments based on sales.
 
 6. Sales Distribution by Customer Segment
 ~~~
@@ -88,7 +94,10 @@ SELECT
 FROM (
     SELECT 
         customer_code,
-        SUM(sales_amount) AS total_spent,
+        SUM(sales_amount)  SUM(CASE
+        WHEN t.currency = 'USD' THEN sales_amount * 87.4
+        ELSE sales_amount
+    END) AS total_spent,
         CASE 
             WHEN SUM(sales_amount) > 100000000 THEN 'High Value'
             WHEN SUM(sales_amount) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
@@ -99,7 +108,7 @@ FROM (
 ) AS customer_segments
 GROUP BY customer_segment;
 ~~~
-To find out which segment brings in the most revenue.
+To find out which customer segment brings in the most revenue.
 
 
 
@@ -132,7 +141,7 @@ ORDER BY total_revenue DESC;
 ~~~
 SELECT product_type,
     SUM(CASE
-        WHEN t.currency = 'USD' THEN sales_amount * 83 
+        WHEN t.currency = 'USD' THEN sales_amount * 87.4
         ELSE sales_amount
     END) AS sales_amount
 FROM sales.transactions t
