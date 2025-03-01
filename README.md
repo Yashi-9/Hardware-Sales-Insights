@@ -47,15 +47,22 @@ There are 38 unique customers
 3.Top Customer Segments by Revenue
 
 ~~~
-SELECT  customer_code,
-SUM(sales_amount) AS total_spent
+SELECT 
+customer_code,
+SUM(sales_amount) AS total_sales,
+RANK() OVER (ORDER BY SUM(sales_amount) DESC) AS sales_rank
 FROM transactions
-GROUP BY customer_code
-ORDER BY total_spent DESC;
+GROUP BY customer_code;
 ~~~
-To sort customers by revenue and see who has contributed the most.
+To  ranks customers based on their total sales.
 
-4.Top Customer Segments by Revenue
+4. Customer segmentation by types
+~~~
+SELECT customer_type, COUNT(*) AS customer_count
+FROM customers
+GROUP BY customer_type;
+~~~
+5.Top Customer Segments by Revenue
 ~~~
 SELECT 
 customer_code,
@@ -71,7 +78,7 @@ ORDER BY total_spent DESC;
    ~~~
 To identify which segment contributes most to revenue.                                            
 
-5. Sales Distribution by Customer Segment
+6. Sales Distribution by Customer Segment
 ~~~
 SELECT 
     customer_segment,
@@ -94,20 +101,21 @@ GROUP BY customer_segment;
 ~~~
 To find out which segment brings in the most revenue.
 
+
+
 6.Sales Trend by Market Location
 ~~~
-SELECT 
-    market_code,
-    SUM(sales_amount) AS total_revenue,
-    COUNT(DISTINCT customer_code) AS unique_customers
-FROM transactions
+SELECT markets_name, sum(sales_amount) AS sales_amount
+FROM sales.transactions t
+JOIN sales.markets m
+ON m.markets_code = t.market_code
 GROUP BY market_code
-ORDER BY total_revenue DESC;
+ORDER BY sales_amount DESC; 
 ~~~
 
 Identifies which market  performs the  best.
 
-7.Sales trend by Zones
+7.Sales Trend by Market Zones
 ~~~
 SELECT 
     markets.zone,
@@ -120,3 +128,38 @@ GROUP BY markets.zone
 ORDER BY total_revenue DESC;
 ~~~
 
+8.
+~~~
+SELECT product_type,
+    SUM(CASE
+        WHEN t.currency = 'USD' THEN sales_amount * 83 
+        ELSE sales_amount
+    END) AS sales_amount
+FROM sales.transactions t
+JOIN sales.products p ON p.product_code = t.product_code
+GROUP BY product_type
+ORDER BY sales_amount DESC;
+~~~
+9. Sales Trend by Product
+ ~~~
+ SELECT product_type,
+ SUM(CASE
+        WHEN t.currency = 'USD' THEN sales_amount * 83 
+        ELSE sales_amount
+    END) AS sales_amount
+FROM sales.transactions t
+JOIN sales.products p ON p.product_code = t.product_code
+GROUP BY product_type
+ORDER BY sales_amount DESC;
+~~~
+10
+~~~
+SELECT 
+    date.year,
+    date.month_name,
+    SUM(transactions.sales_amount) AS monthly_revenue
+FROM transactions
+INNER JOIN date ON transactions.order_date = date.date
+GROUP BY date.year, date.month_name
+ORDER BY date.year, date.month;
+~~~
