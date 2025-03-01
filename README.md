@@ -1,12 +1,21 @@
 # Hardware-Sales-Insights | SQL | Power BI
 ### Talble of contents
-- Problem Statement
-  An India-based computer hardware company, struggles with sales tracking and growth in a competitive market.Currently, the company struggles with limited data visibility and relies on verbal reports, making 
-  it difficult to assess performance. Implementing a Power BI sales dashboard will provide real-time insights, enabling data-driven decisions to optimize sales strategies and drive growth.
+- Problem Statement:
+  
+  An India-based computer hardware company, struggles with acquiring more customers and tracking its sales and growth in a competitive market.Currently, the company struggles with limited data visibility and 
+  relies 
+
+  on verbal reports, making it difficult to assess performance. Implementing a Power BI sales dashboard will provide real-time insights, enabling data-driven decisions to optimize sales strategies and drive
+  growth.
+  
 - AIMS Grid
+  
   - 1. Purpose:
+       
        Improve sales tracking, enhance data-driven decision-End result - An automated dashboard providing quick and latest sights to support Data-driven decision making.making, and optimize sales strategies 
-       to drive business growth.
+
+        to drive business growth.
+
  -  2. Stakeholder:
        - Sales Director
        - Marketing Team
