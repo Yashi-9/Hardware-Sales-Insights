@@ -8,19 +8,19 @@
   
 - AIMS Grid
 
-  - 1.Purpose: Improve sales tracking, enhance data-driven decision-End result - An automated dashboard providing quick and latest sights to support Data-driven decision making.making, and optimize sales   
+  - 1 Purpose: Improve sales tracking, enhance data-driven decision-End result - An automated dashboard providing quick and latest sights to support Data-driven decision making.making, and optimize sales   
     strategies to drive business growth.
 
- -  2. Stakeholder:
+ -  2 Stakeholder:
        - Sales Director
        - Marketing Team
        - Customer Service Team
        - Data & Analytics Tea
        -  IT
         
-   -  3.End result:An automated dashboard providing quick and latest sights to support Data-driven decision making.
+   -  3 End result:An automated dashboard providing quick and latest sights to support Data-driven decision making.
     
-   - 4.Success Criteria
+   -  4 Success Criteria
       - Dashboard uncovering sales order insights with the latest data available.
       - Sales team able to make better decisions and prove 10% cost saving of total spend.
       - Sales analysis stops data gathering manually to save 20% of business time and reinvest it value added activity.
@@ -29,18 +29,19 @@
 
 ### Analysis using MySQL
 
-- 1. Basic query to retrieve all customer data:
+- 1 Basic query to retrieve all customer data:
 
  ~~~
 SELECT * from customers;
 ~~~
-It Shows that there are two types of customers:Brick& Motar
-                                               E-Commerce
-- 2. Total Number of Customers:
+There are two types of customers:Brick& Motar ,
+                                 E-Commerce
+                                 
+- 2 Total Number of Customers:
  ~~~
 SELECT distinct count(*) AS total_customers 
 from customers;
 ~~~
 
-It showed that there are 38 distinct customers.
+There are 38 unique customers
                                                
