@@ -32,6 +32,8 @@
 ### ER Diagram![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
 
  Basic query to retrieve all customer data.
-![Screenshot 2025-03-01 154231](https://github.com/user-attachments/assets/ca258826-ee4f-4a50-8a19-d608c7f3569f)
 
+ ~~~
+![Screenshot 2025-03-01 154231](https://github.com/user-attachments/assets/ca258826-ee4f-4a50-8a19-d608c7f3569f)
+~~~
 
