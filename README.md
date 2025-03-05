@@ -48,14 +48,18 @@ There are 38 unique customers
 
 ~~~
 SELECT 
-customer_code,
-SUM(CASE
-    WHEN t.currency = 'USD' THEN sales_amount * 87.4
-    ELSE sales_amount
-    END) AS  total_sales,
-RANK() OVER (ORDER BY SUM(sales_amount) DESC) AS sales_rank
+    customer_code,
+    SUM(CASE
+        WHEN t.currency = 'USD' THEN sales_amount * 87.4
+        ELSE sales_amount
+    END) AS total_sales,
+    RANK() OVER (ORDER BY SUM(CASE 
+        WHEN t.currency = 'USD' THEN sales_amount * 87.4
+        ELSE sales_amount 
+    END) DESC) AS sales_rank
 FROM transactions
 GROUP BY customer_code;
+
 ~~~
 To  ranks customers based on their total sales.
 
@@ -68,19 +72,30 @@ GROUP BY customer_type;
 5.Top Customer Segments by Revenue
 ~~~
 SELECT 
-customer_code,
- SUM(CASE
+    customer_code,
+    SUM(CASE
         WHEN t.currency = 'USD' THEN sales_amount * 83 
         ELSE sales_amount
     END) AS total_spent,
-CASE
-        WHEN SUM(sales_amount) > 100000000 THEN 'High Value'
-        WHEN SUM(sales_amount) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
+    CASE
+        WHEN SUM(CASE 
+            WHEN t.currency = 'USD' THEN sales_amount * 83 
+            ELSE sales_amount 
+        END) > 100000000 THEN 'High Value'
+        WHEN SUM(CASE 
+            WHEN t.currency = 'USD' THEN sales_amount * 83 
+            ELSE sales_amount 
+        END) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
         ELSE 'Low Value'
-END AS customer_segment
+    END AS customer_segment,
+    RANK() OVER (ORDER BY SUM(CASE 
+        WHEN t.currency = 'USD' THEN sales_amount * 83 
+        ELSE sales_amount 
+    END) DESC) AS spending_rank
 FROM transactions
 GROUP BY customer_code
 ORDER BY total_spent DESC;
+
    ~~~
 To distribute customers into segments based on sales.
 
@@ -90,23 +105,31 @@ SELECT
     customer_segment,
     COUNT(customer_code) AS total_customers,
     SUM(total_spent) AS segment_revenue,
-    (SUM(total_spent) * 100) / (SELECT SUM(sales_amount) FROM transactions) AS revenue_share
+    (SUM(total_spent) * 100.0) / SUM(SUM(total_spent)) OVER () AS revenue_share
 FROM (
     SELECT 
         customer_code,
-        SUM(sales_amount)  SUM(CASE
-        WHEN t.currency = 'USD' THEN sales_amount * 87.4
-        ELSE sales_amount
-    END) AS total_spent,
+        SUM(CASE
+            WHEN t.currency = 'USD' THEN sales_amount * 87.4
+            ELSE sales_amount
+        END) AS total_spent,
         CASE 
-            WHEN SUM(sales_amount) > 100000000 THEN 'High Value'
-            WHEN SUM(sales_amount) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
+            WHEN SUM(CASE 
+                WHEN t.currency = 'USD' THEN sales_amount * 87.4
+                ELSE sales_amount
+            END) > 100000000 THEN 'High Value'
+            WHEN SUM(CASE 
+                WHEN t.currency = 'USD' THEN sales_amount * 87.4
+                ELSE sales_amount
+            END) BETWEEN 1000000 AND 100000000 THEN 'Medium Value'
             ELSE 'Low Value'
         END AS customer_segment
     FROM transactions
     GROUP BY customer_code
 ) AS customer_segments
-GROUP BY customer_segment;
+GROUP BY customer_segment
+ORDER BY segment_revenue DESC;
+
 ~~~
 To find out which customer segment brings in the most revenue.
 
@@ -114,12 +137,29 @@ To find out which customer segment brings in the most revenue.
 
 6.Sales Trend by Market Location
 ~~~
-SELECT markets_name, sum(sales_amount) AS sales_amount
+SELECT 
+    m.markets_name, 
+    SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) AS total_sales,
+    RANK() OVER (ORDER BY SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) DESC) AS sales_rank,
+    (SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) * 100.0) / SUM(SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END)) OVER () AS sales_share
 FROM sales.transactions t
 JOIN sales.markets m
 ON m.markets_code = t.market_code
-GROUP BY market_code
-ORDER BY sales_amount DESC; 
+GROUP BY m.markets_name
+ORDER BY total_sales DESC;
+ 
 ~~~
 
 Identifies which market  performs the  best.
@@ -127,48 +167,104 @@ Identifies which market  performs the  best.
 7.Sales Trend by Market Zones
 ~~~
 SELECT 
-    markets.zone,
-    SUM(transactions.sales_amount) AS total_revenue,
-    COUNT(DISTINCT transactions.customer_code) AS unique_customers
-FROM transactions
-join markets 
-on transactions.market_code=markets.markets_code
-GROUP BY markets.zone
+    m.zone,
+    SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) AS total_revenue,
+    COUNT(DISTINCT t.customer_code) AS unique_customers,
+    RANK() OVER (ORDER BY SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) DESC) AS revenue_rank,
+    (SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END) * 100.0) / SUM(SUM(CASE 
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4 
+        ELSE t.sales_amount 
+    END)) OVER () AS revenue_share
+FROM transactions t
+JOIN markets m 
+ON t.market_code = m.markets_code
+GROUP BY m.zone
 ORDER BY total_revenue DESC;
+
 ~~~
 
 8.
 ~~~
-SELECT product_type,
+SELECT 
+    p.product_type,
     SUM(CASE
-        WHEN t.currency = 'USD' THEN sales_amount * 87.4
-        ELSE sales_amount
-    END) AS sales_amount
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) AS total_sales,
+    RANK() OVER (ORDER BY SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) DESC) AS sales_rank,
+    (SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) * 100.0) / SUM(SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END)) OVER () AS sales_share
 FROM sales.transactions t
 JOIN sales.products p ON p.product_code = t.product_code
-GROUP BY product_type
-ORDER BY sales_amount DESC;
+GROUP BY p.product_type
+ORDER BY total_sales DESC;
+
 ~~~
 9. Sales Trend by Product
  ~~~
- SELECT product_type,
- SUM(CASE
-        WHEN t.currency = 'USD' THEN sales_amount * 83 
-        ELSE sales_amount
-    END) AS sales_amount
+SELECT 
+    p.product_type,
+    SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 83 
+        ELSE t.sales_amount
+    END) AS total_sales,
+    RANK() OVER (ORDER BY SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 83 
+        ELSE t.sales_amount
+    END) DESC) AS sales_rank,
+    (SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 83 
+        ELSE t.sales_amount
+    END) * 100.0) / SUM(SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 83 
+        ELSE t.sales_amount
+    END)) OVER () AS sales_share
 FROM sales.transactions t
 JOIN sales.products p ON p.product_code = t.product_code
-GROUP BY product_type
-ORDER BY sales_amount DESC;
+GROUP BY p.product_type
+ORDER BY total_sales DESC;
+
 ~~~
 10
 ~~~
 SELECT 
-    date.year,
-    date.month_name,
-    SUM(transactions.sales_amount) AS monthly_revenue
-FROM transactions
-INNER JOIN date ON transactions.order_date = date.date
-GROUP BY date.year, date.month_name
-ORDER BY date.year, date.month;
+    d.year,
+    d.month_name,
+    SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) AS monthly_revenue,
+    RANK() OVER (PARTITION BY d.year ORDER BY SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) DESC) AS revenue_rank,
+    (SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END) * 100.0) / SUM(SUM(CASE
+        WHEN t.currency = 'USD' THEN t.sales_amount * 87.4
+        ELSE t.sales_amount
+    END)) OVER (PARTITION BY d.year) AS monthly_revenue_share
+FROM transactions t
+INNER JOIN date d ON t.order_date = d.date
+GROUP BY d.year, d.month_name, d.month
+ORDER BY d.year, d.month;
+
 ~~~
