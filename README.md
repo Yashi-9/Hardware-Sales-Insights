@@ -173,7 +173,7 @@ Key challenges include:
 
 3. Employed data storytelling techniques to present insights clearly and concisely.
 
-4. 
+
 ![Screenshot 2025-04-09 205118](https://github.com/user-attachments/assets/1cfa18c0-8e17-43cc-a31f-fd8d284cf2cd)
 
 
