@@ -1,5 +1,11 @@
 # Hardware-Sales-Insights | SQL | Power BI
 ### Table of contents
+# Table of Contents
+- [Project Overview](#project-overview)
+- [Problem Statement](#problem-statement)
+- [AIMS Grid](#aims-grid)
+- [ER Diagram](#er-diagram)
+- [Power BI Analysis and Dashboard](#power-bi-analysis-and-dashboard)
 
 ### Project Overview:
 
