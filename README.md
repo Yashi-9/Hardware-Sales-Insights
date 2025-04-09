@@ -141,6 +141,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 2. Designed user-friendly filter panes for efficient data slicing and dicing.
 
 3. Employed data storytelling techniques to present insights clearly and concisely.
+
+4. 
 ![Screenshot 2025-04-09 205118](https://github.com/user-attachments/assets/1cfa18c0-8e17-43cc-a31f-fd8d284cf2cd)
 
 
