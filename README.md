@@ -18,7 +18,8 @@ Suboptimal sales strategies due to a lack of granular insights into product and 
 Inefficient resource allocation due to insufficient understanding of regional sales patterns.
 
 Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities."
-  
+
+
 #### AIMS Grid
 
 1.  Purpose: The primary aim of this project is to develop and implement a data-driven sales analytics solution that empowers AtliQ Hardware to:
@@ -58,23 +59,6 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
             User Adoption: High user adoption of the dashboards and Financial Simulator across the defined stakeholder groups, measured by usage metrics (e.g., dashboard views, report downloads).
 
             Improved Forecast Accuracy: Increased accuracy in sales forecasts due to the insights gained from the dashboards
-
- ### Data Engineering and Technology Stack:
-
-           
-          Data Source: 
-          ~~~
-          https://codebasics.io/resources/sales-insights-data-analysis-project
-          ~~~
- 
-          Data Wrangling: MySQL was used for data extraction, cleaning, transformation, and aggregation. SQL queries were optimized for performance to handle large datasets.
-          
-          Data Visualization and Analysis: Power BI was employed to create interactive and insightful dashboards.
-
-          Financial Modeling: DAX (Data Analysis Expressions) was utilized within Power BI to build a dynamic Financial Simulator.
-          
-          Data Modeling: Relational database principles and dimensional modeling techniques were applied to ensure data integrity and efficient querying.
-
 
 ### ER Diagram![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
 
