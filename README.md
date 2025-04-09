@@ -1,11 +1,58 @@
 # Hardware-Sales-Insights | SQL | Power BI
 ### Table of contents
 # Table of Contents
+# Project Documentation
+
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
 - [AIMS Grid](#aims-grid)
 - [ER Diagram](#er-diagram)
 - [Power BI Analysis and Dashboard](#power-bi-analysis-and-dashboard)
+  - [Sales Analysis Dashboard](#sales-analysis-dashboard)
+  - [Product Analysis Dashboard](#product-analysis-dashboard)
+  - [Market Analysis Dashboard](#market-analysis-dashboard)
+  - [Customer Analysis Dashboard](#customer-analysis-dashboard)
+  - [Financial Simulator](#financial-simulator)
+  - [Revenue and Gross Profit Breakdown Dashboards](#revenue-and-gross-profit-breakdown-dashboards)
+  - [Enhanced User Experience](#enhanced-user-experience)
+- [Insights and Recommendations](#insights-and-recommendations)
+
+## Project Overview
+[Provide a high-level overview of the project, its goals, and its scope.]
+
+## Problem Statement
+[Detail the specific problem(s) this project addresses.]
+
+## AIMS Grid
+[Include your normalized AIMS Grid content here.]
+
+## ER Diagram
+[Insert or link your ER Diagram.]
+
+## Power BI Analysis and Dashboard
+
+### Sales Analysis Dashboard
+- **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
+- **Key Visuals:** 
+  - Rolling average revenue trends
+  - Sales performance against targets
+- **Highlights:** 
+  - Identification of seasonal peaks and troughs
+  - Analysis of sales performance by different product segments
+
+### Product Analysis Dashboard
+- **Description:** Focuses on product segmentation to identify star products and underperformers.
+- **Key Visuals:** 
+  - Pareto analysis to show top-performing products
+  - Product clustering by sales, margin, and cost metrics
+- **Highlights:** 
+  - Insights into which products to promote or potentially discontinue
+
+### Market Analysis Dashboard
+- **Description:** Analyzes market performance across different regions.
+- **Key Visuals:** 
+  - Map visualizations of regional sales
 
 ### Project Overview:
 
