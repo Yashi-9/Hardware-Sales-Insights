@@ -20,45 +20,6 @@ Inefficient resource allocation due to insufficient understanding of regional sa
 Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities."
 
 
-#### AIMS Grid
-
-1.  Purpose: The primary aim of this project is to develop and implement a data-driven sales analytics solution that empowers AtliQ Hardware to:
-   
-             Enhance strategic decision-making through accessible and interactive sales insights dashboards.
-
-             Improve financial forecasting and planning by providing a Financial Simulator for scenario analysis.
-
-             Optimize sales performance by facilitating data-backed strategies across product, customer, and market domains.
-
-3. Stakeholder:
-           - Sales Departent
-   
-           - Marketing Department
-
-           - Finance Department 
-
-           - Sales Operations Team
-
-           - Data & Analytics Department
-
-           - IT Department 
-
- 
- 5. End result: The primary deliverable of this project is a suite of interactive and automated sales analytics dashboards, accompanied by a Financial Simulator tool, designed to provide timely and actionable 
-
-             insights that support data-driven decision-making.
-
- 6. Success Criteria:
-    
-            Decision-Making Impact: The sales team demonstrates improved decision-making, leading to a measurable reduction in operational costs (e.g., 10% reduction in sales-related expenses) and/or increased 
-            revenue.
-
-            Efficiency Gains: Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing 
-            for reallocation to strategic activities.
-
-            User Adoption: High user adoption of the dashboards and Financial Simulator across the defined stakeholder groups, measured by usage metrics (e.g., dashboard views, report downloads).
-
-            Improved Forecast Accuracy: Increased accuracy in sales forecasts due to the insights gained from the dashboards
 
 ### ER Diagram![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
 
