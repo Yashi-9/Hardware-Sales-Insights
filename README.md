@@ -28,11 +28,11 @@ AtliQ Hardware is currently not fully leveraging its sales data to drive strateg
 
 Key challenges include:
 
-Suboptimal sales strategies due to a lack of granular insights into product and customer performance.
+- Suboptimal sales strategies due to a lack of granular insights into product and customer performance.
 
-Inefficient resource allocation due to insufficient understanding of regional sales patterns.
+- Inefficient resource allocation due to insufficient understanding of regional sales patterns.
 
-Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities."
+- Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities."
 
 #### AIMS Grid
 
