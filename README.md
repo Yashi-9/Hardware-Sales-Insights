@@ -80,6 +80,31 @@ Key challenges include:
 
 4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
+- **Insights:**
+
+1. Overall Sales Trends:
+
+Strong Overall Sales: Total sales show a generally positive trend throughout the year, with peaks in January, July, and particularly in October and November.
+Significant Drop in September: There's a notable dip in overall sales in September.
+Recovery in Q4: Sales rebound strongly in the last quarter (October-December).
+
+2. Channel Performance:
+
+Brick & Mortar Dominance: Brick & Mortar sales (grey portion) consistently contribute the largest share of the total sales throughout the year.
+E-Commerce Growth: E-Commerce sales (yellow portion) show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year.
+
+3. Sales MoM % (Red Line): Shows significant volatility. There were substantial month-over-month growth periods (e.g., January, July, October) and significant declines (e.g., February, March, September). The highest MoM growth was in October.
+
+4. Specific Observations:
+
+January Surge: All three channels and all three MoM% KPIs show strong positive performance in January.
+September & feb Slump: September experienced a significant downturn across bricks & motor Stores 27.5%, same with feb 16.7% and a sharp negative swing in all MoM% KPIs.
+October Peak: October stands out with the highest overall sales mom Growth , driven by substantial growth in all channels and a massive surge in order volume.
+E-Commerce Momentum: The increasing contribution of E-Commerce suggests a growing online customer base or successful online sales initiatives.% of Revenue
+approximately 17.70% of products are responsible for 80% of revenue
+The rolling average shows a smoothing effect, indicating whether recent sales are above or below the general trend."
+  
+
 ![Screenshot 2025-04-09 203122](https://github.com/user-attachments/assets/df5226e1-c765-47b1-a50e-2c9821217dec)
 
 ### Product Analysis Dashboard:
@@ -104,9 +129,21 @@ Key challenges include:
 
    Cluster2: Warns about clusters with low sales, negative margins, and high COGS; these might be candidates for discontinuation.
 
-   Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement
+   Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
+ Insights:
+
+🔹 Sales Consistency: Clusters 1 maintained steady sales throughout the year, representing reliable performers.
+Quantity mom% dec in Q2 mainly due dec in quantity in cluster 1 products
+
+   
+
+Cluster 5 (High Margin, Low Sales): Premium, niche products—strategically promote to boost visibility.
+
+Cluster 2 (Low Sales, Negative Margin): Candidates for discontinuation or re-pricing.
+🔹 Sales Consistency: Clusters 1 & 5 maintained steady sales throughout the year, representing reliable performers.
 
 ![Screenshot 2025-04-09 203418](https://github.com/user-attachments/assets/9dbb533b-71f2-4463-b0fc-170e6e8dba55)
+
 
 ### Market Analysis Dashboard:
 
