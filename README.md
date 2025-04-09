@@ -98,6 +98,18 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 3. Enabled filtering and drill-down capabilities to explore product-level insights.
 
+4. Explanation of Cluters:
+
+   Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
+
+   Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
+
+   Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
+
+   Cluster2: Warns about clusters with low sales, negative margins, and high COGS; these might be candidates for discontinuation.
+
+   Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement
+
 ### Market Analysis Dashboard:
 
 1. Visualized sales and profitability across different geographical regions using interactive maps.
