@@ -90,6 +90,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
+![Screenshot 2025-04-09 203122](https://github.com/user-attachments/assets/df5226e1-c765-47b1-a50e-2c9821217dec)
+
 ### Product Analysis Dashboard:
 
 1. Segmented products based on sales and profitability to identify "star" products and "leaky" products.
@@ -110,6 +112,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
    Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement
 
+![Screenshot 2025-04-09 203418](https://github.com/user-attachments/assets/9dbb533b-71f2-4463-b0fc-170e6e8dba55)
+
 ### Market Analysis Dashboard:
 
 1. Visualized sales and profitability across different geographical regions using interactive maps.
@@ -117,6 +121,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 2. Segmented customers within each market to understand regional customer behavior.
 
 3. Identified high-growth potential markets and opportunities for expansion.
+
+![Screenshot 2025-04-09 203502](https://github.com/user-attachments/assets/f33f6e5c-0fea-4c6e-9f09-d7968ea222a7)
 
 ### Customer Analysis Dashboard:
 
@@ -126,17 +132,23 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
 
+![Screenshot 2025-04-09 203544](https://github.com/user-attachments/assets/11772110-0810-41bb-902f-edd120b9b168)
+
 ### Financial Simulator:
 
 1. Developed a dynamic "What-If" analysis tool using DAX to model the impact of changes in pricing, costs, and sales volume on profitability.
 
 2. Enabled scenario planning to evaluate different financial strategies and optimize decision-making.
 
+![Screenshot 2025-04-09 203625](https://github.com/user-attachments/assets/dc0fd731-d394-4591-a838-ca79090a6d44)
+
 ### Revenue and Gross Profit Breakdown Dashboards:
 
 1. Provided a hierarchical breakdown of revenue and gross profit by various dimensions (region, product category, customer segment, etc.).
 
 2. Identified key profit drivers and areas for margin improvement.
+![Screenshot 2025-04-09 203659](https://github.com/user-attachments/assets/933bcb00-4a81-4464-a083-3fda0c83ae6e)
+![Screenshot 2025-04-09 204932](https://github.com/user-attachments/assets/153da911-0b9f-4221-a5cf-f7975a5219c5)
 
 ### Enhanced User Experience:
 
@@ -145,5 +157,6 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 2. Designed user-friendly filter panes for efficient data slicing and dicing.
 
 3. Employed data storytelling techniques to present insights clearly and concisely.
+![Screenshot 2025-04-09 205118](https://github.com/user-attachments/assets/1cfa18c0-8e17-43cc-a31f-fd8d284cf2cd)
 
 
