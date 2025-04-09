@@ -18,41 +18,6 @@
   - [Enhanced User Experience](#enhanced-user-experience)
 - [Insights and Recommendations](#insights-and-recommendations)
 
-## Project Overview
-[Provide a high-level overview of the project, its goals, and its scope.]
-
-## Problem Statement
-[Detail the specific problem(s) this project addresses.]
-
-## AIMS Grid
-[Include your normalized AIMS Grid content here.]
-
-## ER Diagram
-[Insert or link your ER Diagram.]
-
-## Power BI Analysis and Dashboard
-
-### Sales Analysis Dashboard
-- **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
-- **Key Visuals:** 
-  - Rolling average revenue trends
-  - Sales performance against targets
-- **Highlights:** 
-  - Identification of seasonal peaks and troughs
-  - Analysis of sales performance by different product segments
-
-### Product Analysis Dashboard
-- **Description:** Focuses on product segmentation to identify star products and underperformers.
-- **Key Visuals:** 
-  - Pareto analysis to show top-performing products
-  - Product clustering by sales, margin, and cost metrics
-- **Highlights:** 
-  - Insights into which products to promote or potentially discontinue
-
-### Market Analysis Dashboard
-- **Description:** Analyzes market performance across different regions.
-- **Key Visuals:** 
-  - Map visualizations of regional sales
 
 ### Project Overview:
 
@@ -107,6 +72,9 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 ### Power BI Analysis and Dashboard
 
 ### Sales Analysis Dashboard:
+- **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
+  
+- **Key Visuals:**
 
 1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
 
@@ -119,6 +87,10 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 ![Screenshot 2025-04-09 203122](https://github.com/user-attachments/assets/df5226e1-c765-47b1-a50e-2c9821217dec)
 
 ### Product Analysis Dashboard:
+
+- **Description:** Focuses on product segmentation to identify star products and underperformers.
+
+- **Key Visuals:**
 
 1. Segmented products based on sales and profitability to identify "star" products and "leaky" products.
 
@@ -142,6 +114,10 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Market Analysis Dashboard:
 
+- **Description:** Analyzes market performance across different regions.
+
+- **Key Visuals:**
+  
 1. Visualized sales and profitability across different geographical regions using interactive maps.
 
 2. Segmented customers within each market to understand regional customer behavior.
@@ -151,6 +127,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 ![Screenshot 2025-04-09 203502](https://github.com/user-attachments/assets/f33f6e5c-0fea-4c6e-9f09-d7968ea222a7)
 
 ### Customer Analysis Dashboard:
+
+- **Key Visuals:**
 
 1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior.
 
@@ -162,6 +140,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Financial Simulator:
 
+- **Key Visuals:**
+  
 1. Developed a dynamic "What-If" analysis tool using DAX to model the impact of changes in pricing, costs, and sales volume on profitability.
 
 2. Enabled scenario planning to evaluate different financial strategies and optimize decision-making.
