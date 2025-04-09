@@ -125,6 +125,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Customer Analysis Dashboard:
 
+- **Description:** Uses segmentation (RFM analysis) and predictive CLV modeling to understand customer behavior.
+
 - **Key Visuals:**
 
 1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior.
@@ -137,6 +139,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Financial Simulator:
 
+- **Description:** A "what-if" tool to explore pricing, cost optimization, and forecast scenarios.
+
 - **Key Visuals:**
   
 1. Developed a dynamic "What-If" analysis tool using DAX to model the impact of changes in pricing, costs, and sales volume on profitability.
@@ -147,6 +151,10 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Revenue and Gross Profit Breakdown Dashboards:
 
+- **Description:** Breaks down overall revenue and gross profit by segments such as region and product category.
+
+- **Key Visuals:**
+  
 1. Provided a hierarchical breakdown of revenue and gross profit by various dimensions (region, product category, customer segment, etc.).
 
 2. Identified key profit drivers and areas for margin improvement.
@@ -154,6 +162,11 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 ![Screenshot 2025-04-09 204932](https://github.com/user-attachments/assets/153da911-0b9f-4221-a5cf-f7975a5219c5)
 
 ### Enhanced User Experience:
+
+- **Description:** Focuses on the dashboard’s interactivity and design enhancements.
+
+ 
+- **Features:**
 
 1. Implemented custom tooltips for interactive data exploration.
 
