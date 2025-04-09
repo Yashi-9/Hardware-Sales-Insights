@@ -23,7 +23,7 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### ER Diagram![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
 
-### Key Analytical Features and Deliverables:
+### Power BI Analysis and Dashboard
 
 ### Sales Analysis Dashboard:
 
