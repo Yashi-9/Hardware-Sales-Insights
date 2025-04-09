@@ -62,7 +62,8 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
  ### Data Engineering and Technology Stack:
 
            
-          Data Source: ~~~
+          Data Source: 
+          ~~~
           https://codebasics.io/resources/sales-insights-data-analysis-project
           ~~~
  
@@ -81,56 +82,56 @@ Reactive rather than proactive decision-making due to limited 'What-If' scenario
 
 ### Sales Analysis Dashboard:
 
-Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
+1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
 
-Employed Pareto analysis to identify top-selling products and their contribution to revenue.
+2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
 
-Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
+3. Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
 
-Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
+4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
 ### Product Analysis Dashboard:
 
-Segmented products based on sales and profitability to identify "star" products and "leaky" products.
+1. Segmented products based on sales and profitability to identify "star" products and "leaky" products.
 
-Provided a detailed breakdown of product performance by category and individual SKU.
+2. Provided a detailed breakdown of product performance by category and individual SKU.
 
-Enabled filtering and drill-down capabilities to explore product-level insights.
+3. Enabled filtering and drill-down capabilities to explore product-level insights.
 
 ### Market Analysis Dashboard:
 
-Visualized sales and profitability across different geographical regions using interactive maps.
+1. Visualized sales and profitability across different geographical regions using interactive maps.
 
-Segmented customers within each market to understand regional customer behavior.
+2. Segmented customers within each market to understand regional customer behavior.
 
-Identified high-growth potential markets and opportunities for expansion.
+3. Identified high-growth potential markets and opportunities for expansion.
 
 ### Customer Analysis Dashboard:
 
-Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior.
+1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior.
 
-Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
+2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
 
-Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
+3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
 
 ### Financial Simulator:
 
-Developed a dynamic "What-If" analysis tool using DAX to model the impact of changes in pricing, costs, and sales volume on profitability.
+1. Developed a dynamic "What-If" analysis tool using DAX to model the impact of changes in pricing, costs, and sales volume on profitability.
 
-Enabled scenario planning to evaluate different financial strategies and optimize decision-making.
+2. Enabled scenario planning to evaluate different financial strategies and optimize decision-making.
 
 ### Revenue and Gross Profit Breakdown Dashboards:
 
-Provided a hierarchical breakdown of revenue and gross profit by various dimensions (region, product category, customer segment, etc.).
+1. Provided a hierarchical breakdown of revenue and gross profit by various dimensions (region, product category, customer segment, etc.).
 
-Identified key profit drivers and areas for margin improvement.
+2. Identified key profit drivers and areas for margin improvement.
 
 ### Enhanced User Experience:
 
-Implemented custom tooltips for interactive data exploration.
+1. Implemented custom tooltips for interactive data exploration.
 
-Designed user-friendly filter panes for efficient data slicing and dicing.
+2. Designed user-friendly filter panes for efficient data slicing and dicing.
 
-Employed data storytelling techniques to present insights clearly and concisely.
+3. Employed data storytelling techniques to present insights clearly and concisely.
 
 
