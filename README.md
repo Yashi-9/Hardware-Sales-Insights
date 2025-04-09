@@ -1,7 +1,4 @@
 # Hardware-Sales-Insights | SQL | Power BI
-### Table of contents
-# Table of Contents
-# Project Documentation
 
 ## Table of Contents
 - [Project Overview](#project-overview)
