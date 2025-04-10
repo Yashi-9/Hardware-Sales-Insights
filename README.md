@@ -113,61 +113,54 @@
 
  
 3. **Insights:**
-   
-   3.1. Overall Sales Trends
-   
-    - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
 
-    - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+ Overall Performance Highlights:
+ Total Sales: Reached ₹985M, backed by 146K orders, indicating strong customer traction.
+Gross Profit: ₹24.67M.
+Gross Profit Margin: Low at 2.5%, signaling high costs.
+Cost of Goods Sold (COGS): ₹960M, indicating a significant portion of revenue is consumed by operational expenses.
+MoM Sales Growth: +1.5%, with January being the top-performing month for sales volume.
+October Spike: Shows a significant 52.93% increase in performance metrics.
+Sales Volatility: Sales revenue fluctuates considerably compared to the more stable rolling average.
+80/20 Rule: Approximately 17.70% of products account for 80% of revenue.
+Rolling Average: Provides a smoother trend, highlighting deviations in recent sales performance.
 
-    - Volatile Growth: Month-over-month % fluctuates considerably.
+Channel-Specific Insights:
+
+Brick & Mortar:
+
+North Zone Dominance: Leads in sales through both owned stores and distribution (₹193.2M).
+Central Underperformance: Distribution channel is under-leveraged (₹75.4M sales).
+South Challenges: Low physical footprint success (₹13.2M sales), requiring market analysis.
  
-   - Roughly 17.7% of products account for ~80% of revenue.
+E-Commerce:
 
-   3.2. Channel Performance:
- 
-   - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
+Central Leadership: Demonstrates strong online revenue generation through effective product listings, delivery, and awareness.
+North Potential: Significant opportunity to grow by replicating Central's online strategies.
+South Intervention Needed: Requires urgent action including campaigns, mobile UX optimization, and exploring regional partnerships.
 
-   - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
-     or effective digital campaigns.
+Product Performance:
 
-4. 🎯 Target Gap Analysis
+"Need Attention" Cluster: Contributes the highest revenue at ₹442M.
+Customer Segment Performance:
+
+"Loyal" and "New Customers": Generate significantly lower revenue (₹45M and ₹26M respectively).
+
+Temporal Trends:
+
+Strongest Quarters: Quarter 3 and 4 typically exhibit the highest sales across all zones.
+January Surge: Strong positive performance across all channels and MoM% KPIs.
+September & February Slump: Significant downturn in Brick & Mortar stores (September: -27.5%, February: -16.7%) and sharp negative swings in all MoM% KPIs.
+October Peak: Highest overall sales MoM Growth, driven by substantial growth in all channels and a massive surge in order volume.
+E-Commerce Momentum: Increasing contribution towards the end of the year.
+
+Target Gap Analysis:
+
+Monthly Target: ₹90M.
+Performance: Missed in multiple months.
+Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
    
-   - Monthly Target: ₹90M
-
-   - Performance: Missed in multiple months.
-
-   - Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
-
-
-3. Specific Observations:
- 
- January Surge: All three channels and all three MoM% KPIs show strong positive performance in January.
- September & feb Slump: September experienced a significant downturn across bricks & motor Stores 27.5%, same with feb 16.7% and a sharp negative swing in all MoM% KPIs.
- October Peak: October stands out with the highest overall sales mom Growth , driven by substantial growth in all channels and a massive surge in order volume.
- E-Commerce Momentum: The increasing contribution of E-Commerce suggests a growing online customer base or successful online sales initiatives.% of Revenue
- approximately 17.70% of products are responsible for 80% of revenue
- The rolling average shows a smoothing effect, indicating whether recent sales are above or below the general trend."
-   :
-🚀 October Peak: Highest MoM sales growth, driven by:
-
-Strong gains in both Brick & Mortar and E-Commerce
-
-Massive surge in order volume
-
-📦 E-Commerce Momentum: Accelerated toward the end of the year, indicating:
-
-A growing online customer base
-
-Success of digital sales strategies
-
-4. 🎯 Target Gap Analysis
-
-    - Monthly Target: ₹90M
-
-    - Performance: Missed in multiple months.
-
-    - Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
+  
 
 
 
