@@ -326,30 +326,30 @@ Success of digital sales strategies
 
 4. **Customer Behavior Insights**
 
- 4.1. Hibernating Customers (11)
+  4.1. Hibernating Customers (11)
 
-   - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
+    - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
    
-   - Product Preference: Primarily purchase from Cluster 3 & 1 products, contributing both revenue and gross profit.
+    - Product Preference: Primarily purchase from Cluster 3 & 1 products, contributing both revenue and gross profit.
    
-   - Channel: Slight dominance by E-Commerce customers.
+    - Channel: Slight dominance by E-Commerce customers.
 
-   - Sales Trend: Average MoM growth in sales and orders, with positive signals in Cluster 4.
+    - Sales Trend: Average MoM growth in sales and orders, with positive signals in Cluster 4.
 
-   - CLV vs LTV: CLV is ~₹10M higher than LTV, indicating untapped future potential.
+    - CLV vs LTV: CLV is ~₹10M higher than LTV, indicating untapped future potential.
 
 
 4.2. Promising Customers
 
-  - These customers are showing early signs of increased activity and spending. With the right engagement strategies, they have the potential to become loyal customers.
+   - These customers are showing early signs of increased activity and spending. With the right engagement strategies, they have the potential to become loyal customers.
  
-  - Product Preference: Primarily purchase products from Cluster 3 and Cluster 1.
+   - Product Preference: Primarily purchase products from Cluster 3 and Cluster 1.
   
-  - Channel: All customers in this segment are from the E-Commerce channel.
+   - Channel: All customers in this segment are from the E-Commerce channel.
   
-  - Sales Trend: Month-over-month (MoM) sales growth is approximately 2%, with particularly strong performance in Cluster 5.
+   - Sales Trend: Month-over-month (MoM) sales growth is approximately 2%, with particularly strong performance in Cluster 5.
   
-  - Customer Value:CLV is ~₹2M higher than LTV
+   - Customer Value:CLV is ~₹2M higher than LTV
 
 3. Need Attention (3)
    
