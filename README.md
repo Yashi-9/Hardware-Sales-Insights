@@ -14,20 +14,21 @@
    - [Financial Simulator](#financial-simulator)
    - [Revenue and Gross Profit Breakdown Dashboards](#revenue-and-gross-profit-breakdown-dashboards)
    - [Enhanced User Experience](#enhanced-user-experience)
- - [Insights and Recommendations](#insights-and-recommendations)
+   - [Recommendations](#recommendations)
  
  
  ### Project Overview:
  
- This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable intelligence, empowering
- data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive visualizations, and a financial simulation tool.
+ This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable 
+ intelligence, empowering data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive 
+ visualizations, and a financial simulation tool.
 
  Dataset: https://codebasics.io/resources/sales-insights-data-analysis-project
  
  #### Problem Statement:
    
- AtliQ Hardware is currently not fully leveraging its sales data to drive strategic decision-making. This results in missed opportunities for revenue growth, profit margin improvement, and optimized customer 
- engagement.
+ AtliQ Hardware is currently not fully leveraging its sales data to drive strategic decision-making. This results in missed opportunities for revenue growth, profit margin improvement, and 
+ optimized customer engagement.
  
  Key challenges include:
  
@@ -40,27 +41,36 @@
  #### AIMS Grid
  
  1. **Purpose:**  
+
     The primary aim of this project is to develop and implement a data-driven sales analytics solution that empowers AtliQ Hardware to:  
+
     - Enhance strategic decision-making through accessible and interactive sales insights dashboards.  
+
     - Improve financial forecasting and planning by providing a Financial Simulator for scenario analysis.  
+
     - Optimize sales performance by facilitating data-backed strategies across product, customer, and market domains.
  
- 2. **Stakeholders:**  
+ 3. **Stakeholders:**  
+
     - Sales Department  
+
     - Marketing Department  
+
     - Finance Department  
+
     - Sales Operations Team  
+
     - Data & Analytics Department  
+
     - IT Department
  
- 3. **End Result:**  
+ 5. **End Result:**  
 
     The primary deliverable of this project is a suite of interactive and automated sales analytics dashboards, accompanied by a Financial Simulator tool, designed to provide timely and 
-    actionable insights that 
-    support data-driven decision-making.
+    actionable insights that support data-driven decision-making.
  
- 4. **Success Criteria:**  
-
+ 7. **Success Criteria:**
+    
     - **Decision-Making Impact:**  
     
       The sales team demonstrates improved decision-making, leading to a measurable reduction in operational costs (e.g., 10% reduction in sales-related expenses) and/or increased revenue.
@@ -68,8 +78,7 @@
     - **Efficiency Gains:**  
 
       Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing 
-      reallocation to strategic 
-      activities.
+      reallocation to strategic activities.
 
     - **User Adoption:**  
       High user adoption of the dashboards and Financial Simulator across the defined stakeholder groups, measured by usage metrics (e.g., dashboard views, report downloads).
@@ -78,22 +87,25 @@
       Increased accuracy in sales forecasts due to the insights gained from the dashboards.
  
  
- ### ER Diagram![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
+ ### ER Diagram
+ 
+ The Entity-Relationship (ER) Diagram outlines the relationships between different entities within the sales data. Here’s the ER diagram that visually represents the data model:
+ 
+ ![Screenshot 2025-03-01 151702](https://github.com/user-attachments/assets/ebee9822-f620-4b83-8c0e-2e853b89ed00)
  
  ### Power BI Analysis and Dashboard
  
-   #### Data Cleaning
- 
-   1.Missing Value Treatement:
-   
-   The transaction table has a ton of 0 and negative values in the sales_amount column . Since the % of these records compared to total dataset is very low ie <=1% , it is safe to filter it 
-   out.
-   
-   2.Sales amount column in transcation table has a few USD currency, converted it to INR.
-   
-   3.The market table has two international markets with no zones allocated. Filtering it out using the dropdown.
-
-  4. Removed and hide columns not required for processing.
+ #### Data Cleaning
+       
+      To ensure the data is clean and ready for analysis, the following steps were taken:
+     
+      1. Missing Values: Filtered out rows where sales values were 0 or negative (less than 1% of the dataset).
+      
+      2.Currency Conversion: All USD sales values were converted into INR for consistency.
+      
+      3.Market Data: Removed any markets that had no associated zones.
+      
+      4.Unnecessary Columns: Removed irrelevant columns that did not contribute to the analysis.
 
  ### Sales Analysis Dashboard:
  
@@ -114,55 +126,68 @@
  
 3. **Insights:**
 
- Overall Performance Highlights:
- Total Sales: Reached ₹985M, backed by 146K orders, indicating strong customer traction.
-Gross Profit: ₹24.67M.
-Gross Profit Margin: Low at 2.5%, signaling high costs.
-Cost of Goods Sold (COGS): ₹960M, indicating a significant portion of revenue is consumed by operational expenses.
-MoM Sales Growth: +1.5%, with January being the top-performing month for sales volume.
-October Spike: Shows a significant 52.93% increase in performance metrics.
-Sales Volatility: Sales revenue fluctuates considerably compared to the more stable rolling average.
-80/20 Rule: Approximately 17.70% of products account for 80% of revenue.
-Rolling Average: Provides a smoother trend, highlighting deviations in recent sales performance.
-
-Channel-Specific Insights:
-
-Brick & Mortar:
-
-North Zone Dominance: Leads in sales through both owned stores and distribution (₹193.2M).
-Central Underperformance: Distribution channel is under-leveraged (₹75.4M sales).
-South Challenges: Low physical footprint success (₹13.2M sales), requiring market analysis.
- 
-E-Commerce:
-
-Central Leadership: Demonstrates strong online revenue generation through effective product listings, delivery, and awareness.
-North Potential: Significant opportunity to grow by replicating Central's online strategies.
-South Intervention Needed: Requires urgent action including campaigns, mobile UX optimization, and exploring regional partnerships.
-
-Product Performance:
-
-"Need Attention" Cluster: Contributes the highest revenue at ₹442M.
-Customer Segment Performance:
-
-"Loyal" and "New Customers": Generate significantly lower revenue (₹45M and ₹26M respectively).
-
-Temporal Trends:
-
-Strongest Quarters: Quarter 3 and 4 typically exhibit the highest sales across all zones.
-January Surge: Strong positive performance across all channels and MoM% KPIs.
-September & February Slump: Significant downturn in Brick & Mortar stores (September: -27.5%, February: -16.7%) and sharp negative swings in all MoM% KPIs.
-October Peak: Highest overall sales MoM Growth, driven by substantial growth in all channels and a massive surge in order volume.
-E-Commerce Momentum: Increasing contribution towards the end of the year.
-
-Target Gap Analysis:
-
-Monthly Target: ₹90M.
-Performance: Missed in multiple months.
-Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
-   
+   3.1 Overall Performance Highlights:
+    
+    - Total Sales: Reached ₹985M, backed by 146K orders, indicating strong customer traction.
+    
+    - Gross Profit: ₹24.67M.
+    
+    - Gross Profit Margin: Low at 2.5%, signaling high costs.
+    
+    - Cost of Goods Sold (COGS): ₹960M, indicating a significant portion of revenue is consumed by operational expenses.
+    
+    - MoM Sales Growth: +1.5%, with January being the top-performing month for sales volume.
+    
+    - October Spike: Shows a significant 52.93% increase in performance metrics.
+    
+    - Sales Volatility: Sales revenue fluctuates considerably compared to the more stable rolling average.
+    
+    - Approximately 17.70% of products account for 80% of revenue.
+    
+    - The gap between actual sales and the rolling average suggests inconsistencies in monthly performance.
   
+    - "Need Attention" Cluster: Contributes the highest revenue at ₹442M.
+    
+    - "Loyal" and "New Customers": Generate significantly lower revenue (₹45M and ₹26M respectively).
 
+    
+   3.2. Channel-Specific Insights:
+    
+     - Brick & Mortar:
+     
+       North Zone Dominance: Leads in sales through both owned stores and distribution (₹193.2M).
 
+       Central Underperformance: Distribution channel is under-leveraged (₹75.4M sales).
+
+       South Challenges: Low physical footprint success (₹13.2M sales), requiring market analysis.
+    
+     - E-Commerce:
+
+       Central Leadership: Demonstrates strong online revenue generation.
+
+       North Potential: Significant opportunity to grow by replicating Central's online strategies.
+
+       South : Requires urgent action including campaigns.
+
+   3.3 Temporal Trends:
+
+    - Strongest Quarters: Quarter 3 and 4 typically exhibit the highest sales across all zones.
+   
+    - January Surge: Strong positive performance across all channels and MoM% KPIs.
+   
+    - September & February Slump: Significant downturn in Brick & Mortar stores (September: -27.5%, February: -16.7%) and sharp negative swings in all MoM% KPIs.
+   
+    - October Peak: Highest overall sales MoM Growth, driven by substantial growth in all channels and a massive surge in order volume.
+   
+    - E-Commerce Momentum: Increasing contribution towards the end of the year.
+
+  3.4. Target Gap Analysis:
+  
+    - Monthly Target: ₹90M.
+  
+    - Performance: Missed in multiple months.
+  
+    - Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
 
 ![Screenshot 2025-04-10 183303](https://github.com/user-attachments/assets/0b645f72-1ba0-4f46-994b-24d26dfeabfb)
 
@@ -199,17 +224,14 @@ Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or fo
    
    - Cluster 4 is has high sales with medium profits and cogs but only few products losing to cluster 1 in overall sales.
 
-   - roughly 17.7% of products account for ~80% of revenue
+   - Roughly 17.7% of products account for ~80% of revenue
 
    - Prod334 needs attention — very high transaction count but lower sales
 
    - Q1 &Q4 leads in sales as well as GP Margin- cluster 1 dominates sales in both the quaters.
 
    - Q2 lags behind in overall  all KPIs
-
-   -  overall cluster 1  of products dominates both channels
-
-
+     
  4.2. Channel-Wise Sales by Cluster
 
    Brick & Mortar:
@@ -227,8 +249,6 @@ Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or fo
    - E-commerce comparatively have lesser share of leaky cluster of products (product 2) than Bricks & Motor.
   
 ![Screenshot 2025-04-10 183351](https://github.com/user-attachments/assets/4cc048f4-9cad-4312-b0b9-d7bb832467e2)
-
-
 
 ### Market Analysis Dashboard:
 
@@ -260,15 +280,14 @@ Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or fo
 
  - Bengaluru (-20.78%) and Kanpur (-0.49%) presents a significant concern with a highly negative GP Margin, Bengaluru despite having high value customers.
 
- - High Value Customers are concentrated in markets such as Ahmedabad, Kochi, Chennai, Patna, Lucknow, Surat, Bhubaneshwar, and Bengaluru, highlighting these regions as strategic for premium offerings and 
-  retention efforts.
+ - High Value Customers are concentrated in markets such as Ahmedabad, Kochi, Chennai, Patna, Lucknow, Surat, Bhubaneshwar, and Bengaluru, highlighting these regions as strategic for premium 
+  offerings and  retention efforts.
 
  - Mid Value Customers dominate in Mumbai, Bhopal, Nagpur, and Hyderabad, presenting opportunities to upsell or cross-sell.
 
 - Low Value Segments are seen in Delhi NCR and Kanpur, which may be driven by high transaction volumes of lower-priced items.
 
 - South Zone underperforms in both sales and margin—deserves strategic expansion and market research
-
 
 ![Screenshot 2025-04-09 203502](https://github.com/user-attachments/assets/f33f6e5c-0fea-4c6e-9f09-d7968ea222a7)
 
@@ -278,11 +297,12 @@ Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or fo
 
 2.**Key Visuals:**
 
-  2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
+  2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across 
+       the three dimensions:
+   
+    - Recency: How recently a customer made a purchase
 
-   - Recency: How recently a customer made a purchase
-
-   - Frequency: How often they purchase
+    - Frequency: How often they purchase
 
    - Monetary: How much they spend
 
@@ -321,27 +341,34 @@ Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or fo
    Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
 4.**Customer Behavior Insights**
+  
   4.1 Hibernating (11)
-       Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, long-term customers.
-Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
-Channel: This entire segment consists of customers from the E-Commerce channel.
-Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
-Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
-
-
-         
+ 
+  - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, 
+               long-term customers.
+  
+  - Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
+  
+  - Channel: This entire segment consists of customers from the E-Commerce channel.
+  
+  - Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
+  
+  - Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 
 4.2. Promising Customer
-     Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, long-term customers.
+     
+    - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, 
+                long-term customers.
+    
+    - Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
+    
+    - Channel: This entire segment consists of customers from the E-Commerce channel.
+    
+    - Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
+    
+    - Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 
-Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
-
-Channel: This entire segment consists of customers from the E-Commerce channel.
-
-Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
-
-Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
-3. Need Attention (3)
+4.3. Need Attention (3)
    
     - Behavior: Good past monetary value but a drop in frequency and recency. Highest sales but only ranks 3rd in total orders.
   
@@ -353,7 +380,7 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
     
     - CLV vs LTV: CLV is ~₹26M higher than LTV 
 
-5. Loyal Customers (1)
+4.4. Loyal Customers (1)
    
    - Behavior: Consistent and frequent purchasers. Strong repeat buying patterns.
    
@@ -365,7 +392,7 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
      
    - CLV vs LTV: CLV is ~₹1M higher than LTV.
 
-7. Champions (1)
+4.6. Champions (1)
 
    - Behavior: Top-tier customer with the best RFM scores. Ideal for brand advocacy.
 
@@ -379,7 +406,7 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
      
    - CLV vs LTV: CLV is ~₹2M higher than LTV.
  
-8. New Customers(2)
+4.7. New Customers(2)
    
    - Behavior: Recently acquired with early signs of strong engagement.
 
@@ -391,9 +418,7 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
 
    - CLV vs LTV: CLV is ~₹18M higher than LTV.
 
-
-
-7. Potential Loyalists(1)
+4.8. Potential Loyalists(1)
 
    - Behavior: Increasing order frequency; on the path to becoming loyal customers.
 
@@ -405,7 +430,7 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
 
    - CLV vs LTV: CLV is ~₹7M higher than LTV.
 
-9. Declining Segments (At-Risk, Lost, About to Sleep, Don’t Lose Them)
+4.9. Declining Segments (At-Risk, Lost, About to Sleep, Don’t Lose Them)
     
    - Behavior: Small segments showing signs of disengagement or churn.
 
@@ -414,11 +439,8 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
    - Cluster Insights: Cluster 4 shows some positive Sales MoM% for “About to Sleep”.
 
    - Most segments show low or declining metrics across all clusters.
-
-
-
+   - 
 ![image](https://github.com/user-attachments/assets/755dbf89-45d2-471e-9950-3d21f5666714)
-
 
 ### Financial Simulator:
 
@@ -462,7 +484,39 @@ Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million 
 
 4. Employed data storytelling techniques to present insights clearly and concisely.
 
+4.1. Profitability & Cost Optimization:
 
+COGS Analysis: Break down ₹960M COGS to identify key cost drivers and negotiate better pricing with suppliers. Optimize production processes and logistics.
+
+Strategic Pricing Review: Analyze product margins and consider value-based pricing for high-margin products, while benchmarking against competitors.
+
+Focus on High-Margin Clusters: Promote Cluster 3 and 5 through targeted marketing, and assess Cluster 2’s profitability for potential discontinuation.
+
+Address Low Margin Products: Improve margins in Cluster 1 via cost optimization or price adjustments.
+
+4.2. Sales Growth & Channel Strategy:
+
+E-Commerce Expansion: Replicate Central zone’s success in the North and implement interventions in the South zone for better conversion rates.
+
+Brick & Mortar Strategy: Analyze underperformance in specific regions and address sales slumps in September and February.
+
+Capitalize on Regional Strengths: Invest in high-growth markets like Bhubaneswar and Patna, and target premium products in key cities.
+
+4.3. Customer Relationship Management (CRM):
+
+Re-engage “Need Attention” Customers: Implement campaigns to boost frequency and recency in Brick & Mortar segments.
+
+Loyal Customer Growth: Introduce loyalty programs with personalized offers to increase spending.
+
+Convert New Customers: Focus on onboarding and engaging new customers through personalized recommendations.
+
+Reactivation of Declining Segments: Address disengagement with targeted reactivation campaigns.
+
+Optimize Inventory: Focus on the 17.7% of products that drive 80% of revenue and manage slower-moving items carefully.
+
+Investigate Prod334: Understand why it has high transactions but low sales, and consider strategies to boost its value.
+
+Capitalize on January Surge: Replicate successful January strategies in future months.
 
 
 
