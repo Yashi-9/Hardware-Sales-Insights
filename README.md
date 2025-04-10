@@ -60,7 +60,7 @@
     - **Decision-Making Impact:**  
     
       The sales team demonstrates improved decision-making, leading to a measurable reduction in operational costs (e.g., 10% reduction in sales-related expenses) and/or increased revenue.
-    -
+    
     - **Efficiency Gains:**  
 
       Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing reallocation to strategic 
@@ -95,25 +95,32 @@
 
  
  - **Insights:**
- Monthly Target: ₹90M
- 
- 1. Overall Sales Trends:
- 
- 
- Strong Overall Sales: Total sales show a generally positive trend throughout the year, with peaks in January, July, and particularly in October and November.
- Significant Drop in September: There's a notable dip in overall sales in September.
- Recovery in Q4: Sales rebound strongly in the last quarter (October-December).
- Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
- Performance: Missed in multiple months.
- 
- 2. Channel Performance:
+1. Overall Sales Trends
+   
+   Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
+
+   Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+
+   Volatile Growth: Month-over-month % fluctuates considerably.
+
+    Roughly 17.7% of products account for ~80% of revenue.
+   
+3. Channel Performance:
  
  Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
- E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year.
- 
- 3. Sales MoM % (Red Line): Shows significant volatility. There were substantial month-over-month growth periods (e.g., January, July, October) and significant declines (e.g., February, March, September). The highest MoM growth was in October.
- 
- 4. Specific Observations:
+
+ E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement or 
+ effective digital campaigns.
+
+🎯 Target Gap Analysis
+Monthly Target: ₹90M
+
+Performance: Missed in multiple months.
+
+Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
+
+
+3. Specific Observations:
  
  January Surge: All three channels and all three MoM% KPIs show strong positive performance in January.
  September & feb Slump: September experienced a significant downturn across bricks & motor Stores 27.5%, same with feb 16.7% and a sharp negative swing in all MoM% KPIs.
