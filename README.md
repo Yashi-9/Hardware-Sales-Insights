@@ -1,4 +1,4 @@
-# Hardware-Sales-Insights | SQL | Power BI
+# Brick & Mortar-Sales-Insights |  Power BI
  
  ## Table of Contents
  - [Project Overview](#project-overview)
@@ -328,28 +328,29 @@ Success of digital sales strategies
 
   4.1. Hibernating Customers (11)
 
-    - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
+    - Behavior: These are previously high-value customers who have now become inactive. This segment represents a significant lost opportunity for the business.
+    
+    - Product Preference: Their purchases are primarily from Cluster 3 and Cluster 1 products, which contribute meaningfully to both revenue and gross profit.
    
-    - Product Preference: Primarily purchase from Cluster 3 & 1 products, contributing both revenue and gross profit.
-   
-    - Channel: Slight dominance by E-Commerce customers.
-
-    - Sales Trend: Average MoM growth in sales and orders, with positive signals in Cluster 4.
-
-    - CLV vs LTV: CLV is ~₹10M higher than LTV, indicating untapped future potential.
+    - Channel: There is a slight dominance of E-Commerce as the preferred channel among these customers.
+    
+    - Sales Trend: The segment shows an average month-on-month growth in both sales and orders, with encouraging signals particularly seen in Cluster 4.
+    
+    - CLV vs LTV: The Customer Lifetime Value (CLV) is approximately ₹10 million higher than the actual Lifetime Value (LTV), indicating there is considerable untapped potential in this 
+      group.
 
 
 4.2. Promising Customers
 
-   - These customers are showing early signs of increased activity and spending. With the right engagement strategies, they have the potential to become loyal customers.
+   - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into 
+               loyal,long-term customers.
+   - Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
+   
+   - Channel: This entire segment consists of customers from the E-Commerce channel.
+   
+   - Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
  
-   - Product Preference: Primarily purchase products from Cluster 3 and Cluster 1.
-  
-   - Channel: All customers in this segment are from the E-Commerce channel.
-  
-   - Sales Trend: Month-over-month (MoM) sales growth is approximately 2%, with particularly strong performance in Cluster 5.
-  
-   - Customer Value:CLV is ~₹2M higher than LTV
+   - Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 
 3. Need Attention (3)
    
