@@ -55,10 +55,11 @@
  
  3. **End Result:**  
 
-    The primary deliverable of this project is a suite of interactive and automated sales analytics dashboards, accompanied by a Financial Simulator tool, designed to provide timely and actionable insights that 
+    The primary deliverable of this project is a suite of interactive and automated sales analytics dashboards, accompanied by a Financial Simulator tool, designed to provide timely and 
+    actionable insights that 
     support data-driven decision-making.
  
- 5. **Success Criteria:**  
+ 4. **Success Criteria:**  
 
     - **Decision-Making Impact:**  
     
@@ -66,7 +67,8 @@
     
     - **Efficiency Gains:**  
 
-      Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing reallocation to strategic 
+      Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing 
+      reallocation to strategic 
       activities.
 
     - **User Adoption:**  
@@ -84,13 +86,14 @@
  
    1.Missing Value Treatement:
    
-   The transaction table has a ton of 0 and negative values in the sales_amount column . Since the % of these records compared to total dataset is very low ie <=1% , it is safe to filter it out.
+   The transaction table has a ton of 0 and negative values in the sales_amount column . Since the % of these records compared to total dataset is very low ie <=1% , it is safe to filter it 
+   out.
    
    2.Sales amount column in transcation table has a few USD currency, converted it to INR.
    
    3.The market table has two international markets with no zones allocated. Filtering it out using the dropdown.
 
-   4. Removed and hide columns not required for processing.
+  4. Removed and hide columns not required for processing.
 
  ### Sales Analysis Dashboard:
  
@@ -325,28 +328,26 @@ Success of digital sales strategies
    Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
 4.**Customer Behavior Insights**
-
-   4.1. Hibernating Customers (11)
-       
-      - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
-      
-      - Product Preference: Primarily purchase from Cluster 3 and 1 products, contributing both revenue and gross profit.
-      
-      - Channel: Slight dominance by E-Commerce customers.
-      
-      - Sales Trend: Average MoM growth in sales and orders, with positive signals in Cluster 4.
-      
-      - CLV vs LTV: CLV is approximately ₹10M higher than LTV, indicating untapped future potential.
+  4.1 Hibernating (11)
+       Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, long-term customers.
+Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
+Channel: This entire segment consists of customers from the E-Commerce channel.
+Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
+Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 
 
-4.2. Promising Customers
+         
 
-     - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, 
-        long-term customers.
-     - Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
-     - Channel: This entire segment consists of customers from the E-Commerce channel.
-     - Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
-     - Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
+4.2. Promising Customer
+     Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, long-term customers.
+
+Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
+
+Channel: This entire segment consists of customers from the E-Commerce channel.
+
+Sales Trend: There is a steady month-over-month sales growth of around 2%, with particularly strong traction seen in Cluster 5.
+
+Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 3. Need Attention (3)
    
     - Behavior: Good past monetary value but a drop in frequency and recency. Highest sales but only ranks 3rd in total orders.
