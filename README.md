@@ -94,23 +94,23 @@
   2.4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
  
- 3. **Insights:**
+3. **Insights:**
    
   3.1. Overall Sales Trends
    
-  - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
+   - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
 
-  - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+   - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
 
-  - Volatile Growth: Month-over-month % fluctuates considerably.
-
-  - roughly 17.7% of products account for ~80% of revenue.
-
-3.2. Channel Performance:
+   - Volatile Growth: Month-over-month % fluctuates considerably.
  
- - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
+  - Roughly 17.7% of products account for ~80% of revenue.
 
- - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
+  3.2. Channel Performance:
+ 
+  - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
+
+  - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
    or effective digital campaigns.
 
 4. 🎯 Target Gap Analysis
@@ -299,15 +299,15 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
    About to Sleep	             - Previously active, now losing interest.
 
-  At Risk	                    -	High-value customers slipping away; urgent action needed.
+   At Risk	                    -	High-value customers slipping away; urgent action needed.
 
    Cannot Lose Them	           -	Previously top-tier; win-back is crucial.
 
-  Hibernating Customers	      - Low recent engagement and value.
+   Hibernating Customers	      - Low recent engagement and value.
 
- Lost Customers	             - Fully inactive with low lifetime value.
+   Lost Customers	             - Fully inactive with low lifetime value.
 
- Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
+   Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
 4. **Customer Behavior Insights**
 
@@ -324,18 +324,13 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
    - CLV vs LTV: CLV is ~₹10M higher than LTV, indicating untapped future potential.
 
 
-4.2. Promising Customers (3)
+4.2. Promising Customers
 
-    - Behavior: Early signs of increased activity and spending. Can be nurtured into loyal customers.
-   
-    - Product Preference: Mostly order from Cluster 3 & 1 products,
-   
-    - Channel: Entirely E-Commerce customers.
-   
-    - Sales Trend: MoM Sales Growth ~2%, particularly strong in Cluster 5.
-  
-    - CLV vs LTV: CLV is ~₹2M higher than LTV.
-
+  - These customers are showing early signs of increased activity and spending. With the right engagement strategies, they have the potential to become loyal customers.
+  - Product Preference: Primarily purchase products from Cluster 3 and Cluster 1.
+  - Channel: All customers in this segment are from the E-Commerce channel.
+  - Sales Trend: Month-over-month (MoM) sales growth is approximately 2%, with particularly strong performance in Cluster 5.
+  - Customer Value:CLV is ~₹2M higher than LTV
 
 3. Need Attention (3)
    
@@ -449,12 +444,16 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 - **Features:**
 
 1. Implemented custom tooltips for interactive data exploration.
-
-2. Designed user-friendly filter panes for efficient data slicing and dicing.
-
-3. Employed data storytelling techniques to present insights clearly and concisely.
-
-
+   
 ![Screenshot 2025-04-09 205118](https://github.com/user-attachments/assets/1cfa18c0-8e17-43cc-a31f-fd8d284cf2cd)
+
+3. Designed user-friendly filter panes for efficient data slicing and dicing.
+   
+![Screenshot 2025-04-10 184316](https://github.com/user-attachments/assets/44f00f66-abda-4fbc-b356-2ad58ec3f6ad)
+
+4. Employed data storytelling techniques to present insights clearly and concisely.
+
+
+
 
 
