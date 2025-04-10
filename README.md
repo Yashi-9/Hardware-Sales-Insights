@@ -18,7 +18,7 @@
  
  ### Project Overview:
  
- This project deliverers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable intelligence, empowering
+ This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable intelligence, empowering
  data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive visualizations, and a financial simulation tool.
  
  #### Problem Statement:
@@ -78,41 +78,42 @@
  ### Power BI Analysis and Dashboard
  
  ### Sales Analysis Dashboard:
- - **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
+ 
+ 1. **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
    
- - **Key Visuals:**
+ 2. **Key Visuals:**
  
- 1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
+  2.1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
  
- 2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
- 
- 
- 3. Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
+  2.2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
  
  
- 4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
+  2.3. Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
+ 
+ 
+  2.4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
  
- - **Insights:**
+ 3. **Insights:**
    
-1. Overall Sales Trends
+  3.1. Overall Sales Trends
    
-- Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
+  - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
 
- - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+  - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
 
- - Volatile Growth: Month-over-month % fluctuates considerably.
+  - Volatile Growth: Month-over-month % fluctuates considerably.
 
- - roughly 17.7% of products account for ~80% of revenue.
+  - roughly 17.7% of products account for ~80% of revenue.
 
-2. Channel Performance:
+3.2. Channel Performance:
  
  - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
 
  - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
    or effective digital campaigns.
 
-3. 🎯 Target Gap Analysis
+4. 🎯 Target Gap Analysis
    
    - Monthly Target: ₹90M
 
@@ -152,7 +153,8 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 
 
-![Screenshot 2025-04-09 203122](https://github.com/user-attachments/assets/df5226e1-c765-47b1-a50e-2c9821217dec)
+![Screenshot 2025-04-10 183303](https://github.com/user-attachments/assets/0b645f72-1ba0-4f46-994b-24d26dfeabfb)
+
 
 ### Product Analysis Dashboard:
 
@@ -176,9 +178,9 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
    
 - Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
    
- - Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
+- Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
  
- 4. Insights:
+4. Insights:
 
  4.1. Overall Sales Trends
 
@@ -213,7 +215,8 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
    
    - E-commerce comparatively have lesser share of leaky cluster of products (product 2) than Bricks & Motor.
   
-![Screenshot 2025-04-10 143300](https://github.com/user-attachments/assets/3cdf5d4d-8dcc-4da9-8c9b-59a600b296d9)
+![Screenshot 2025-04-10 183351](https://github.com/user-attachments/assets/4cc048f4-9cad-4312-b0b9-d7bb832467e2)
+
 
 
 ### Market Analysis Dashboard:
@@ -264,21 +267,21 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 2.**Key Visuals:**
 
-2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
+ 2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
 
-   Recency: How recently a customer made a purchase
+   - Recency: How recently a customer made a purchase
 
-   Frequency: How often they purchase
+   - Frequency: How often they purchase
 
-   Monetary: How much they spend
+   - Monetary: How much they spend
 
-   Based on these scores, customers are categorized into actionable segments.
+    Based on these scores, customers are categorized into actionable segments.
 
-2.2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
+ 2.2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
 
-2.3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
+ 2.3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
 
-3. Segment Description
+3. **Segment Description**
 
    Champions                   – recent, frequent, and high spenders.
 
@@ -292,46 +295,126 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
    Promising	                  -	Recent purchasers with potential for upsell.
 
-  Need Attention	             - may need re-engagement.
+   Need Attention	             - may need re-engagement.
 
-  About to Sleep	             - Previously active, now losing interest.
+   About to Sleep	             - Previously active, now losing interest.
 
-At Risk	                    -	High-value customers slipping away; urgent action needed.
+  At Risk	                    -	High-value customers slipping away; urgent action needed.
 
-Cannot Lose Them	           -	Previously top-tier; win-back is crucial.
+   Cannot Lose Them	           -	Previously top-tier; win-back is crucial.
 
-Hibernating Customers	      - Low recent engagement and value.
+  Hibernating Customers	      - Low recent engagement and value.
 
-Lost Customers	             - Fully inactive with low lifetime value.
+ Lost Customers	             - Fully inactive with low lifetime value.
 
-Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
+ Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
-4. Customer Behavior Insights
+4. **Customer Behavior Insights**
+
+4.1. Hibernating Customers (11)
+
+   - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
+   
+   - Product Preference: Primarily purchase from Cluster 3 & 1 products, contributing both revenue and gross profit.
+   
+   - Channel: Slight dominance by E-Commerce customers.
+
+   - Sales Trend: Average MoM growth in sales and orders, with positive signals in Cluster 4.
+
+   - CLV vs LTV: CLV is ~₹10M higher than LTV, indicating untapped future potential.
+
+
+4.2. Promising Customers (3)
+
+    - Behavior: Early signs of increased activity and spending. Can be nurtured into loyal customers.
+   
+    - Product Preference: Mostly order from Cluster 3 & 1 products,
+   
+    - Channel: Entirely E-Commerce customers.
+   
+    - Sales Trend: MoM Sales Growth ~2%, particularly strong in Cluster 5.
+  
+    - CLV vs LTV: CLV is ~₹2M higher than LTV.
+
+
+3. Need Attention (3)
+   
+    - Behavior: Good past monetary value but a drop in frequency and recency. Highest sales but only ranks 3rd in total orders.
+  
+    - Product Preference: Majorly 1 &3 product clusters.
+  
+    - Channel: Exclusively Brick & Mortar.
+  
+    - Sales Trend: Low overall MoM growth across sales and orders; 
+    
+    - CLV vs LTV: CLV is ~₹26M higher than LTV 
+
+5. Loyal Customers (1)
+   
+   - Behavior: Consistent and frequent purchasers. Strong repeat buying patterns.
+   
+   - Product Preference: Heavy spenders in Cluster 3 & 1 products.
+   
+   - Channel: Exclusively E-Commerce.
+
+   - Sales Trend: Lowest overall MoM growth in  sales among all segments but high overall orders growth.
+     
+   - CLV vs LTV: CLV is ~₹1M higher than LTV.
+
+7. Champions (1)
+
+   - Behavior: Top-tier customer with the best RFM scores. Ideal for brand advocacy.
+
+   - Product Preference: Heavy spenders in Cluster 3 & 1 & 4 products.
+   
+   - Channel: Exclusively Brick & Motor.
+
+   - Sales Trend: Highest Order MoM% among all segments.
+
+   - Growth Concern: Avg overall Sales and order MoM growth.
+     
+   - CLV vs LTV: CLV is ~₹2M higher than LTV.
  
- - Hibernating Customers (11):Previously high-value customers who are now inactive. This represents a significant lost opportunity. Re-engagement campaigns could help recover this segment.
+8. New Customers(2)
+   
+   - Behavior: Recently acquired with early signs of strong engagement.
 
-Promising Customers (3)
-Showing signs of increased activity and spending. With the right incentives, they can be nurtured into loyal customers.
+   -  Product Preference: Heavy spenders in Cluster 3 & 1 products.
+   
+   - Channel:  Brick & Motor as well as E-Commerce.
 
-Need Attention (3)
-Once active but now showing reduced frequency or recency. Immediate intervention is needed to prevent churn.
+   - Sales Trend: least revenue drivers and orders and low overall sales as well as orders MoM growth.
 
-Loyal Customers (High Order MoM%)
-Demonstrate consistent purchasing patterns. Likely a reliable revenue stream—ideal for loyalty programs and referral incentives.
+   - CLV vs LTV: CLV is ~₹18M higher than LTV.
 
-Champions (Highest Order MoM%)
-Top-tier customers with the best RFM scores. Ideal candidates for exclusive offers, early product access, and brand ambassadorship.
 
-New Customers (Strong MoM Growth)
-Recent acquisitions showing high engagement. Focus on onboarding and first-purchase experience to retain them long-term.
 
-Potential Loyalists (Moderate MoM Growth)
-On the path to becoming loyal customers. Continued engagement will help solidify their relationship with the brand.
+7. Potential Loyalists(1)
 
-Declining Segments (At-Risk, Lost, About to Sleep, Don’t Lose Them)
-Smaller groups exhibiting signs of disengagement. Early identification allows for targeted win-back strategies.
+   - Behavior: Increasing order frequency; on the path to becoming loyal customers.
 
-![Screenshot 2025-04-09 203544](https://github.com/user-attachments/assets/11772110-0810-41bb-902f-edd120b9b168)
+   -  Product Preference: Heavy spenders in Cluster 3 & 1 &4 products.
+   
+   - Channel:Exclusively E-Commerce.
+
+   - Sales Trend:Low overall MoM trends but highest overall order MoM trensd across sales, orders,
+
+   - CLV vs LTV: CLV is ~₹7M higher than LTV.
+
+9. Declining Segments (At-Risk, Lost, About to Sleep, Don’t Lose Them)
+    
+   - Behavior: Small segments showing signs of disengagement or churn.
+
+   - Sales Trend: Negative MoM trends across sales, orders, and GP.
+
+   - Cluster Insights: Cluster 4 shows some positive Sales MoM% for “About to Sleep”.
+
+   - Most segments show low or declining metrics across all clusters.
+
+
+
+![image](https://github.com/user-attachments/assets/755dbf89-45d2-471e-9950-3d21f5666714)
+
 
 ### Financial Simulator:
 
@@ -354,6 +437,7 @@ Smaller groups exhibiting signs of disengagement. Early identification allows fo
 1. Provided a hierarchical breakdown of revenue and gross profit by various dimensions (region, product category, customer segment, etc.).
 
 2. Identified key profit drivers and areas for margin improvement.
+   
 ![Screenshot 2025-04-09 203659](https://github.com/user-attachments/assets/933bcb00-4a81-4464-a083-3fda0c83ae6e)
 ![Screenshot 2025-04-09 204932](https://github.com/user-attachments/assets/153da911-0b9f-4221-a5cf-f7975a5219c5)
 
