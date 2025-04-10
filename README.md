@@ -96,9 +96,8 @@
  ### Power BI Analysis and Dashboard
  
  #### Data Cleaning
-       
-      To ensure the data is clean and ready for analysis, the following steps were taken:
-     
+      To ensure the data is clean and ready for analysis, the following steps were taken
+      
       1. Missing Values: Filtered out rows where sales values were 0 or negative (less than 1% of the dataset).
       
       2.Currency Conversion: All USD sales values were converted into INR for consistency.
@@ -126,7 +125,7 @@
  
 3. **Insights:**
 
-   3.1 Overall Performance Highlights:
+   3.1 Overall Performance Highlights
     
     - Total Sales: Reached ₹985M, backed by 146K orders, indicating strong customer traction.
     
@@ -151,7 +150,7 @@
     - "Loyal" and "New Customers": Generate significantly lower revenue (₹45M and ₹26M respectively).
 
     
-   3.2. Channel-Specific Insights:
+   3.2. Channel-Specific Insights
     
      - Brick & Mortar:
      
@@ -161,7 +160,7 @@
 
        South Challenges: Low physical footprint success (₹13.2M sales), requiring market analysis.
     
-     - E-Commerce:
+     - E-Commerce
 
        Central Leadership: Demonstrates strong online revenue generation.
 
@@ -169,7 +168,7 @@
 
        South : Requires urgent action including campaigns.
 
-   3.3 Temporal Trends:
+   3.3 Temporal Trends
 
     - Strongest Quarters: Quarter 3 and 4 typically exhibit the highest sales across all zones.
    
@@ -182,9 +181,8 @@
     - E-Commerce Momentum: Increasing contribution towards the end of the year.
 
   3.4. Target Gap Analysis:
-  
     - Monthly Target: ₹90M.
-  
+    
     - Performance: Missed in multiple months.
   
     - Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
@@ -356,10 +354,10 @@
   - Customer Value: The Customer Lifetime Value (CLV) is approximately ₹2 million higher than the current Lifetime Value (LTV), indicating room for further growth and engagement.
 
 4.2. Promising Customer
-     
-    - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, 
+
+     - Behavior: These customers are beginning to show early signs of increased activity and spending. With the right engagement strategies, they hold strong potential to evolve into loyal, 
                 long-term customers.
-    
+                
     - Product Preference: Their purchases are mainly focused on products from Cluster 3 and Cluster 1.
     
     - Channel: This entire segment consists of customers from the E-Commerce channel.
@@ -484,39 +482,41 @@
 
 4. Employed data storytelling techniques to present insights clearly and concisely.
 
-4.1. Profitability & Cost Optimization:
+### Recommendations   
 
-COGS Analysis: Break down ₹960M COGS to identify key cost drivers and negotiate better pricing with suppliers. Optimize production processes and logistics.
+1. Profitability & Cost Optimization:
 
-Strategic Pricing Review: Analyze product margins and consider value-based pricing for high-margin products, while benchmarking against competitors.
+- COGS Analysis: Break down ₹960M COGS to identify key cost drivers and negotiate better pricing with suppliers. Optimize production processes and logistics.
 
-Focus on High-Margin Clusters: Promote Cluster 3 and 5 through targeted marketing, and assess Cluster 2’s profitability for potential discontinuation.
+- Strategic Pricing Review: Analyze product margins and consider value-based pricing for high-margin products, while benchmarking against competitors.
 
-Address Low Margin Products: Improve margins in Cluster 1 via cost optimization or price adjustments.
+- Focus on High-Margin Clusters: Promote Cluster 3 and 5 through targeted marketing, and assess Cluster 2’s profitability for potential discontinuation.
 
-4.2. Sales Growth & Channel Strategy:
+- Address Low Margin Products: Improve margins in Cluster 1 via cost optimization or price adjustments.
 
-E-Commerce Expansion: Replicate Central zone’s success in the North and implement interventions in the South zone for better conversion rates.
+2. Sales Growth & Channel Strategy:
 
-Brick & Mortar Strategy: Analyze underperformance in specific regions and address sales slumps in September and February.
+- E-Commerce Expansion: Replicate Central zone’s success in the North and implement interventions in the South zone for better conversion rates.
 
-Capitalize on Regional Strengths: Invest in high-growth markets like Bhubaneswar and Patna, and target premium products in key cities.
+- Brick & Mortar Strategy: Analyze underperformance in specific regions and address sales slumps in September and February.
 
-4.3. Customer Relationship Management (CRM):
+- Capitalize on Regional Strengths: Invest in high-growth markets like Bhubaneswar and Patna, and target premium products in key cities.
 
-Re-engage “Need Attention” Customers: Implement campaigns to boost frequency and recency in Brick & Mortar segments.
+3. Customer Relationship Management (CRM):
 
-Loyal Customer Growth: Introduce loyalty programs with personalized offers to increase spending.
+- Re-engage “Need Attention” Customers: Implement campaigns to boost frequency and recency in Brick & Mortar segments.
 
-Convert New Customers: Focus on onboarding and engaging new customers through personalized recommendations.
+- Loyal Customer Growth: Introduce loyalty programs with personalized offers to increase spending.
 
-Reactivation of Declining Segments: Address disengagement with targeted reactivation campaigns.
+- Convert New Customers: Focus on onboarding and engaging new customers through personalized recommendations.
 
-Optimize Inventory: Focus on the 17.7% of products that drive 80% of revenue and manage slower-moving items carefully.
+- Reactivation of Declining Segments: Address disengagement with targeted reactivation campaigns.
 
-Investigate Prod334: Understand why it has high transactions but low sales, and consider strategies to boost its value.
+- Optimize Inventory: Focus on the 17.7% of products that drive 80% of revenue and manage slower-moving items carefully.
 
-Capitalize on January Surge: Replicate successful January strategies in future months.
+- Investigate Prod334: Understand why it has high transactions but low sales, and consider strategies to boost its value.
+
+- Capitalize on January Surge: Replicate successful January strategies in future months.
 
 
 
