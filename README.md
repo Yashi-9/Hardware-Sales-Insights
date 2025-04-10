@@ -23,7 +23,8 @@
  
  #### Problem Statement:
    
- AtliQ Hardware is currently not fully leveraging its sales data to drive strategic decision-making. This results in missed opportunities for revenue growth, profit margin improvement, and optimized customer engagement.
+ AtliQ Hardware is currently not fully leveraging its sales data to drive strategic decision-making. This results in missed opportunities for revenue growth, profit margin improvement, and optimized customer 
+ engagement.
  
  Key challenges include:
  
@@ -48,7 +49,6 @@
     - Sales Operations Team  
     - Data & Analytics Department  
     - IT Department
- Strong gains in both Brick & Mortar and E-Commerce
  
  3. **End Result:**  
 
@@ -97,27 +97,28 @@
  - **Insights:**
 1. Overall Sales Trends
    
-   Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
+- Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
 
-   Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+ - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
 
-   Volatile Growth: Month-over-month % fluctuates considerably.
+ - Volatile Growth: Month-over-month % fluctuates considerably.
 
-    Roughly 17.7% of products account for ~80% of revenue.
-   
-3. Channel Performance:
+ - roughly 17.7% of products account for ~80% of revenue.
+
+2. Channel Performance:
  
- Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
+ - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
 
- E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement or 
- effective digital campaigns.
+ - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
+    or effective digital campaigns.
 
-🎯 Target Gap Analysis
-Monthly Target: ₹90M
+3. 🎯 Target Gap Analysis
+   
+   - Monthly Target: ₹90M
 
-Performance: Missed in multiple months.
+   - Performance: Missed in multiple months.
 
-Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
+   - Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
 
 
 3. Specific Observations:
@@ -155,69 +156,105 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 ### Product Analysis Dashboard:
 
-- **Description:** Focuses on product segmentation to identify star products and underperformers.
+1. **Description:** Focuses on product segmentation to identify star products and underperformers.
 
-- **Key Visuals:**
+2. **Key Visuals:**
 
-1. Segmented products based on sales and profitability to identify "star" products and "leaky" products.
+- Segmented products based on sales and profitability to identify "star" products and "leaky" products.
 
-2. Provided a detailed breakdown of product performance by category and individual SKU.
+- Provided a detailed breakdown of product performance by category and individual SKU.
 
-3. Enabled filtering and drill-down capabilities to explore product-level insights.
+- Enabled filtering and drill-down capabilities to explore product-level insights.
 
-4. Explanation of Cluters:
+3. Explanation of Cluters:
 
-   Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
+   - Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
+   
+   - Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
+   
+   - Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
+   
+   - Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
+   
+   - Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
+ 
+ 4. Insights:
 
-   Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
+ 4.1. Overall Sales Trends
 
-   Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
+   - Sales Consistency: Clusters 1 maintained steady  total sales throughout the year, representing reliable performers.
+   
+   - Cluster 4 is has high sales with medium profits and cogs but only few products losing to cluster 1 in overall sales.
 
-   Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
+   - roughly 17.7% of products account for ~80% of revenue
 
-   Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
- Insights:
+   - Prod334 needs attention — very high transaction count but lower sales
 
-🔹 Sales Consistency: Clusters 1 maintained steady sales throughout the year, representing reliable performers.
-Quantity mom% dec in Q2 mainly due dec in quantity in cluster 1 products
+   - Q1 &Q4 leads in sales as well as GP Margin- cluster 1 dominates sales in both the quaters.
 
- Cluster 4 is our key drivers of sales with medium profits and cogs
+   - Q2 lags behind in overall  all KPIs
 
- 2. Channel-Wise Sales by Cluster
-Brick & Mortar:
+   -  overall cluster 1  of products dominates both channels
 
-Dominated by Cluster1 (51.11%) 
 
-E-Commerce:
+ 4.2. Channel-Wise Sales by Cluster
 
-More balanced spread:
+   Brick & Mortar:
+   
+   - Highest sales share in North (51.15%) and Central (51.88%)
 
-Cluster4 (26.74%) and Cluster5 (27.30%) together make up over 50%, indicating E-Commerce favors high-margin SKUs.
+   - Product mix varies, but includes large shares of Cluster1 ( Slight margin)
 
-E-Commerce is a high-potential, profitable channel.
+   E-Commerce:
 
-![Screenshot 2025-04-09 203418](https://github.com/user-attachments/assets/9dbb533b-71f2-4463-b0fc-170e6e8dba55)
+   - South (48.74%) is the dominant contributor — interestingly, it has ~90% Cluster3 products
+
+   - Central and North have higher shares of Cluster1 ,3 & 4  indicating higher-margin mix
+   
+   - E-commerce comparatively have lesser share of leaky cluster of products (product 2) than Bricks & Motor.
+  
+![Screenshot 2025-04-10 143300](https://github.com/user-attachments/assets/3cdf5d4d-8dcc-4da9-8c9b-59a600b296d9)
 
 
 ### Market Analysis Dashboard:
 
-- **Description:** Analyzes market performance across different regions.
+1. **Description:** Analyzes market performance across different regions.
 
-- **Key Visuals:**
+2. **Key Visuals:**
   
-1. Visualized sales and profitability across different geographical regions using interactive maps.
+-  Visualized sales and profitability across different geographical regions using interactive maps.
 
-2. Segmented customers within each market to understand regional customer behavior.
+-  Segmented customers within each market to understand regional customer behavior.
 
-3. Identified high-growth potential markets and opportunities for expansion.
+-  Identified high-growth potential markets and opportunities for expansion.
 
+3. **Insights**
+   
+- Delhi NCR and Mumbai are the top performers in terms of total sales despite having low value and mid value segments of customers respectively .
 
-🔹 Top-Performing States: South and West zones delivered highest sales and profitability—potential for deeper market penetration.
-🔹 Growth Opportunity: East zone has low revenue but decent customer base, suggesting untapped potential with targeted campaigns.
-🔹 Market Share by Profitability: Not all high-sales zones contribute to profit equally—pricing and cost strategies may need recalibration.
+- Bhubaneshwar shows the highest Sales MoM growth at 6.1% followed by Patna at 3.7% and high order MoM growth. This indicates a strong positive trend in sales for this market.
 
-🛠️ Insight:
-Resource allocation should favor the South for expansion, while East presents a conversion opportunity via pricing and regional partnerships.
+- Lucknow and Bengaluru show 0.0% both Sales and Orders MoM growth. This suggests stagnant sales in these markets compared to the previous month.
+
+- Nagpur has the highest number of orders despite being 5th highest in sales followed by Delhi.
+
+- January is a standout month for multiple regions, including Delhi NCR, Chennai, Kanpur, and Patna, reflecting seasonal peaks or successful campaigns.
+
+- February also shows strong performance for Bhopal, Nagpur, and Lucknow, indicating early-quarter momentum
+
+- Surat leads with the highest GP Margin at 4.86%, indicating strong profitability per sale followed by Patna (4.12%) and Bhopal (3.90%)
+
+- Bengaluru (-20.78%) and Kanpur (-0.49%) presents a significant concern with a highly negative GP Margin, Bengaluru despite having high value customers.
+
+- High Value Customers are concentrated in markets such as Ahmedabad, Kochi, Chennai, Patna, Lucknow, Surat, Bhubaneshwar, and Bengaluru, highlighting these regions as strategic for premium offerings and 
+  retention efforts.
+
+- Mid Value Customers dominate in Mumbai, Bhopal, Nagpur, and Hyderabad, presenting opportunities to upsell or cross-sell.
+
+- Low Value Segments are seen in Delhi NCR and Kanpur, which may be driven by high transaction volumes of lower-priced items.
+
+- South Zone underperforms in both sales and margin—deserves strategic expansion and market research
+
 
 ![Screenshot 2025-04-09 203502](https://github.com/user-attachments/assets/f33f6e5c-0fea-4c6e-9f09-d7968ea222a7)
 
@@ -227,12 +264,47 @@ Resource allocation should favor the South for expansion, while East presents a 
 
 - **Key Visuals:**
 
-1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior.
+1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
+
+Recency: How recently a customer made a purchase
+
+Frequency: How often they purchase
+
+Monetary: How much they spend
+
+Based on these scores, customers are categorized into actionable segments.
 
 2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
 
 3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
 
+Segment	     | Description
+
+Champions                   – recent, frequent, and high spenders.
+
+Loyal Customers            	-Consistent buyers with high engagement.
+
+High-Spending New Customers	- Recently acquired and already spending well.
+
+Potential Loyalists         -		Early signs of becoming loyal; nurture them.
+
+New Customers	              - 	Recently acquired, yet to build frequency.
+
+Promising	                  -	Recent purchasers with potential for upsell.
+
+Need Attention	             - may need re-engagement.
+
+About to Sleep	             - Previously active, now losing interest.
+
+At Risk	                    -	High-value customers slipping away; urgent action needed.
+
+Cannot Lose Them	           -	Previously top-tier; win-back is crucial.
+
+Hibernating Customers	      - Low recent engagement and value.
+
+Lost Customers	             - Fully inactive with low lifetime value.
+
+Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
 **RFM Segmentation:**
         "We have a large segment of 'Loyal Customers,' which are our most valuable customers. We should focus on retaining them."
