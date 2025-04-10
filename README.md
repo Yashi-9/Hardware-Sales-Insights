@@ -6,6 +6,7 @@
  - [AIMS Grid](#aims-grid)
  - [ER Diagram](#er-diagram)
  - [Power BI Analysis and Dashboard](#power-bi-analysis-and-dashboard)
+   - [Data Cleaning](#Data-Cleaning)
    - [Sales Analysis Dashboard](#sales-analysis-dashboard)
    - [Product Analysis Dashboard](#product-analysis-dashboard)
    - [Market Analysis Dashboard](#market-analysis-dashboard)
@@ -20,6 +21,8 @@
  
  This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable intelligence, empowering
  data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive visualizations, and a financial simulation tool.
+
+ Dataset: https://codebasics.io/resources/sales-insights-data-analysis-project
  
  #### Problem Statement:
    
@@ -77,41 +80,53 @@
  
  ### Power BI Analysis and Dashboard
  
+   #### Data Cleaning
+ 
+   1.Missing Value Treatement:
+   
+   The transaction table has a ton of 0 and negative values in the sales_amount column . Since the % of these records compared to total dataset is very low ie <=1% , it is safe to filter it out.
+   
+   2.Sales amount column in transcation table has a few USD currency, converted it to INR.
+   
+   3.The market table has two international markets with no zones allocated. Filtering it out using the dropdown.
+
+   4. Removed and hide columns not required for processing.
+
  ### Sales Analysis Dashboard:
  
  1. **Description:** Provides insights into sales trends, key performance indicators, and monthly sales targets.
    
  2. **Key Visuals:**
  
-  2.1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
+    2.1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
  
-  2.2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
- 
- 
-  2.3. Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
+    2.2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
  
  
-  2.4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
+    2.3. Analyzed the correlation between sales and other business metrics to understand key drivers and inhibitors.
+ 
+ 
+    2.4. Included dynamic rolling averages to smooth out fluctuations and reveal underlying trends.
 
  
 3. **Insights:**
    
-  3.1. Overall Sales Trends
+   3.1. Overall Sales Trends
    
-   - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
+    - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
 
-   - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
+    - Significant Drop in September: A sharp decline in sales, possibly due to supply chain issues or demand fluctuation.
 
-   - Volatile Growth: Month-over-month % fluctuates considerably.
+    - Volatile Growth: Month-over-month % fluctuates considerably.
  
-  - Roughly 17.7% of products account for ~80% of revenue.
+   - Roughly 17.7% of products account for ~80% of revenue.
 
-  3.2. Channel Performance:
+   3.2. Channel Performance:
  
-  - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
+   - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
 
-  - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
-   or effective digital campaigns.
+   - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
+     or effective digital campaigns.
 
 4. 🎯 Target Gap Analysis
    
@@ -145,11 +160,11 @@ Success of digital sales strategies
 
 4. 🎯 Target Gap Analysis
 
-Monthly Target: ₹90M
+    - Monthly Target: ₹90M
 
-Performance: Missed in multiple months.
+    - Performance: Missed in multiple months.
 
-Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
+    - Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or forecasting issues.
 
 
 
@@ -162,23 +177,23 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 2. **Key Visuals:**
 
-- Segmented products based on sales and profitability to identify "star" products and "leaky" products.
+  - Segmented products based on sales and profitability to identify "star" products and "leaky" products.
 
-- Provided a detailed breakdown of product performance by category and individual SKU.
+  - Provided a detailed breakdown of product performance by category and individual SKU.
 
-- Enabled filtering and drill-down capabilities to explore product-level insights.
+  - Enabled filtering and drill-down capabilities to explore product-level insights.
 
 3. Explanation of Cluters:
 
-- Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
+  - Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
    
-- Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
+  - Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
    
-- Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
+  - Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
    
-- Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
+  - Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
    
-- Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
+  - Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
  
 4. Insights:
 
@@ -225,11 +240,11 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 2. **Key Visuals:**
   
--  Visualized sales and profitability across different geographical regions using interactive maps.
+  -  Visualized sales and profitability across different geographical regions using interactive maps.
 
--  Segmented customers within each market to understand regional customer behavior.
+  -  Segmented customers within each market to understand regional customer behavior.
 
--  Identified high-growth potential markets and opportunities for expansion.
+  -  Identified high-growth potential markets and opportunities for expansion.
 
 3. **Insights**
    
@@ -267,7 +282,7 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 2.**Key Visuals:**
 
- 2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
+  2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
 
    - Recency: How recently a customer made a purchase
 
@@ -275,7 +290,7 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
    - Monetary: How much they spend
 
-    Based on these scores, customers are categorized into actionable segments.
+     Based on these scores, customers are categorized into actionable segments.
 
  2.2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
 
@@ -311,7 +326,7 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 4. **Customer Behavior Insights**
 
-4.1. Hibernating Customers (11)
+ 4.1. Hibernating Customers (11)
 
    - Behavior: Previously high-value customers who are now inactive. Represents a significant lost opportunity.
    
@@ -327,9 +342,13 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 4.2. Promising Customers
 
   - These customers are showing early signs of increased activity and spending. With the right engagement strategies, they have the potential to become loyal customers.
+ 
   - Product Preference: Primarily purchase products from Cluster 3 and Cluster 1.
+  
   - Channel: All customers in this segment are from the E-Commerce channel.
+  
   - Sales Trend: Month-over-month (MoM) sales growth is approximately 2%, with particularly strong performance in Cluster 5.
+  
   - Customer Value:CLV is ~₹2M higher than LTV
 
 3. Need Attention (3)
