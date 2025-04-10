@@ -83,7 +83,6 @@
  - **Key Visuals:**
  
  1. Visualized overall sales trends, performance against targets, and key performance indicators (KPIs).
- 📦 E-Commerce Momentum: Accelerated toward the end of the year, indicating:
  
  2. Employed Pareto analysis to identify top-selling products and their contribution to revenue.
  
@@ -95,6 +94,7 @@
 
  
  - **Insights:**
+   
 1. Overall Sales Trends
    
 - Strong Overall Sales: Total sales show a positive trend across the year, peaking in January, July, and notably in October & November indicating seasonal or campaign-driven uplift.
@@ -110,7 +110,7 @@
  - Brick & Mortar Dominance: Brick & Mortar sales consistently contribute the largest share of the total sales throughout the year.
 
  - E-Commerce Growth: E-Commerce sales show a significant upward trend, becoming a more substantial contributor to overall sales, especially towards the end of the year  suggesting increased online engagement 
-    or effective digital campaigns.
+   or effective digital campaigns.
 
 3. 🎯 Target Gap Analysis
    
@@ -168,15 +168,15 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 3. Explanation of Cluters:
 
-   - Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
+- Cluster5: Indicates a niche, premium cluster that, despite low sales, carries high margins and low COGS. It should be promoted carefully.
    
-   - Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
+- Cluster4: Suggests high sales with medium margins – your key volume drivers, so efficiency is crucial.
    
-   - Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
+- Cluster3: Represents hidden gems that might be underperforming in volume but offer high margins. Consider expanding their reach.
    
-   - Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
+- Cluster2: Warns about clusters with low sales, negative margins even tho with low COGS; these might be candidates for discontinuation.
    
-   - Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
+ - Cluster1: Depicts a steady-performing segment with slight margins where there’s potential for margin improvement.
  
  4. Insights:
 
@@ -230,26 +230,26 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 3. **Insights**
    
-- Delhi NCR and Mumbai are the top performers in terms of total sales despite having low value and mid value segments of customers respectively .
+ - Delhi NCR and Mumbai are the top performers in terms of total sales despite having low value and mid value segments of customers respectively .
 
-- Bhubaneshwar shows the highest Sales MoM growth at 6.1% followed by Patna at 3.7% and high order MoM growth. This indicates a strong positive trend in sales for this market.
+ - Bhubaneshwar shows the highest Sales MoM growth at 6.1% followed by Patna at 3.7% and high order MoM growth. This indicates a strong positive trend in sales for this market.
 
-- Lucknow and Bengaluru show 0.0% both Sales and Orders MoM growth. This suggests stagnant sales in these markets compared to the previous month.
+ - Lucknow and Bengaluru show 0.0% both Sales and Orders MoM growth. This suggests stagnant sales in these markets compared to the previous month.
 
-- Nagpur has the highest number of orders despite being 5th highest in sales followed by Delhi.
+ - Nagpur has the highest number of orders despite being 5th highest in sales followed by Delhi.
 
-- January is a standout month for multiple regions, including Delhi NCR, Chennai, Kanpur, and Patna, reflecting seasonal peaks or successful campaigns.
+ - January is a standout month for multiple regions, including Delhi NCR, Chennai, Kanpur, and Patna, reflecting seasonal peaks or successful campaigns.
 
-- February also shows strong performance for Bhopal, Nagpur, and Lucknow, indicating early-quarter momentum
+ - February also shows strong performance for Bhopal, Nagpur, and Lucknow, indicating early-quarter momentum
 
-- Surat leads with the highest GP Margin at 4.86%, indicating strong profitability per sale followed by Patna (4.12%) and Bhopal (3.90%)
+ - Surat leads with the highest GP Margin at 4.86%, indicating strong profitability per sale followed by Patna (4.12%) and Bhopal (3.90%)
 
-- Bengaluru (-20.78%) and Kanpur (-0.49%) presents a significant concern with a highly negative GP Margin, Bengaluru despite having high value customers.
+ - Bengaluru (-20.78%) and Kanpur (-0.49%) presents a significant concern with a highly negative GP Margin, Bengaluru despite having high value customers.
 
-- High Value Customers are concentrated in markets such as Ahmedabad, Kochi, Chennai, Patna, Lucknow, Surat, Bhubaneshwar, and Bengaluru, highlighting these regions as strategic for premium offerings and 
+ - High Value Customers are concentrated in markets such as Ahmedabad, Kochi, Chennai, Patna, Lucknow, Surat, Bhubaneshwar, and Bengaluru, highlighting these regions as strategic for premium offerings and 
   retention efforts.
 
-- Mid Value Customers dominate in Mumbai, Bhopal, Nagpur, and Hyderabad, presenting opportunities to upsell or cross-sell.
+ - Mid Value Customers dominate in Mumbai, Bhopal, Nagpur, and Hyderabad, presenting opportunities to upsell or cross-sell.
 
 - Low Value Segments are seen in Delhi NCR and Kanpur, which may be driven by high transaction volumes of lower-priced items.
 
@@ -260,41 +260,41 @@ Cumulative Shortfall: Approx. ₹8M – Indicates missed opportunities or foreca
 
 ### Customer Analysis Dashboard:
 
-- **Description:** Uses segmentation (RFM analysis) and predictive CLV modeling to understand customer behavior.
+1.**Description:** Uses segmentation (RFM analysis) and predictive CLV modeling to understand customer behavior.
 
-- **Key Visuals:**
+2.**Key Visuals:**
 
-1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
+2.1. Implemented RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior. Each customer is scored on a scale of 1 (lowest) to 5 (highest) across the three dimensions:
 
-Recency: How recently a customer made a purchase
+   Recency: How recently a customer made a purchase
 
-Frequency: How often they purchase
+   Frequency: How often they purchase
 
-Monetary: How much they spend
+   Monetary: How much they spend
 
-Based on these scores, customers are categorized into actionable segments.
+   Based on these scores, customers are categorized into actionable segments.
 
-2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
+2.2. Calculated and visualized Customer Lifetime Value (CLTV) and compared it with predicted CLTV to assess customer value and retention effectiveness.
 
-3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
+2.3. Analyzed customer behavior patterns to inform personalized marketing and communication strategies.
 
-Segment	     | Description
+3. Segment Description
 
-Champions                   – recent, frequent, and high spenders.
+   Champions                   – recent, frequent, and high spenders.
 
-Loyal Customers            	-Consistent buyers with high engagement.
+   Loyal Customers            	-Consistent buyers with high engagement.
 
-High-Spending New Customers	- Recently acquired and already spending well.
+   High-Spending New Customers	- Recently acquired and already spending well.
 
-Potential Loyalists         -		Early signs of becoming loyal; nurture them.
+   Potential Loyalists         -		Early signs of becoming loyal; nurture them.
 
-New Customers	              - 	Recently acquired, yet to build frequency.
+   New Customers	              - 	Recently acquired, yet to build frequency.
 
-Promising	                  -	Recent purchasers with potential for upsell.
+   Promising	                  -	Recent purchasers with potential for upsell.
 
-Need Attention	             - may need re-engagement.
+  Need Attention	             - may need re-engagement.
 
-About to Sleep	             - Previously active, now losing interest.
+  About to Sleep	             - Previously active, now losing interest.
 
 At Risk	                    -	High-value customers slipping away; urgent action needed.
 
@@ -306,13 +306,30 @@ Lost Customers	             - Fully inactive with low lifetime value.
 
 Other                       -	Does not match above criteria	Requires further review or segmentation refinement.
 
-**RFM Segmentation:**
-        "We have a large segment of 'Loyal Customers,' which are our most valuable customers. We should focus on retaining them."
-         "The 'At Risk' segment is growing, indicating a potential problem with customer churn. We need to address this."
-      **Customer Lifetime Value (CLV):**
-         "The average CLV is \[Amount], which is \[above/below] our target. We need to implement strategies to increase customer lifetime value."
-    **Order Trends:**
-        "The number of orders is declining in the \[Customer Segment], which is concerning."
+4. Customer Behavior Insights
+ 
+ - Hibernating Customers (11):Previously high-value customers who are now inactive. This represents a significant lost opportunity. Re-engagement campaigns could help recover this segment.
+
+Promising Customers (3)
+Showing signs of increased activity and spending. With the right incentives, they can be nurtured into loyal customers.
+
+Need Attention (3)
+Once active but now showing reduced frequency or recency. Immediate intervention is needed to prevent churn.
+
+Loyal Customers (High Order MoM%)
+Demonstrate consistent purchasing patterns. Likely a reliable revenue stream—ideal for loyalty programs and referral incentives.
+
+Champions (Highest Order MoM%)
+Top-tier customers with the best RFM scores. Ideal candidates for exclusive offers, early product access, and brand ambassadorship.
+
+New Customers (Strong MoM Growth)
+Recent acquisitions showing high engagement. Focus on onboarding and first-purchase experience to retain them long-term.
+
+Potential Loyalists (Moderate MoM Growth)
+On the path to becoming loyal customers. Continued engagement will help solidify their relationship with the brand.
+
+Declining Segments (At-Risk, Lost, About to Sleep, Don’t Lose Them)
+Smaller groups exhibiting signs of disengagement. Early identification allows for targeted win-back strategies.
 
 ![Screenshot 2025-04-09 203544](https://github.com/user-attachments/assets/11772110-0810-41bb-902f-edd120b9b168)
 
