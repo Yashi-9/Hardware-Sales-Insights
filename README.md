@@ -92,15 +92,15 @@
  ### Power BI Analysis and Dashboard
  
  #### Data Cleaning
-      To ensure the data is clean and ready for analysis, the following steps were taken
-      
-      1. Missing Values: Filtered out rows where sales values were 0 or negative (less than 1% of the dataset).
-      
-      2.Currency Conversion: All USD sales values were converted into INR for consistency.
-      
-      3.Market Data: Removed any markets that had no associated zones.
-      
-      4.Unnecessary Columns: Removed irrelevant columns that did not contribute to the analysis.
+      To ensure the data is clean and ready for analysis, the following steps were taken:
+
+1. **Missing Values**: Filtered out rows where sales values were 0 or negative (less than 1% of the dataset).
+
+2. **Currency Conversion**: All USD sales values were converted into INR for consistency.
+
+3. **Market Data**: Removed any markets that had no associated zones.
+
+4. **Unnecessary Columns**: Removed irrelevant columns that did not contribute to the analysis.
 
  ### Sales Analysis Dashboard:
  
