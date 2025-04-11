@@ -19,8 +19,7 @@
  
  ### Project Overview:
  
- This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable 
- intelligence, empowering data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive 
+ This project delivers a comprehensive Sales Insights solution for AtliQ Hardware, a B2B Indian Hardware company. The primary objective was to transform raw sales data into actionable intelligence, empowering data-driven strategic decision-making across sales, marketing, and finance departments. The solution encompassed data engineering, advanced analytics, interactive 
  visualizations, and a financial simulation tool.
 
  Dataset: https://codebasics.io/resources/sales-insights-data-analysis-project
@@ -36,7 +35,7 @@
  
  - Inefficient resource allocation due to insufficient understanding of regional sales patterns.
  
- - Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities."
+ - Reactive rather than proactive decision-making due to limited 'What-If' scenario planning capabilities.
  
  #### AIMS Grid
  
@@ -73,15 +72,12 @@
     
     - **Decision-Making Impact:**  
     
-      The sales team demonstrates improved decision-making, leading to a measurable reduction in operational costs (e.g., 10% reduction in sales-related expenses) and/or increased revenue.
+      The sales team demonstrates improved decision-making, leading to a measurable increased monthly revenue by 10%.
     
     - **Efficiency Gains:**  
 
-      Automation of sales analysis tasks results in a significant reduction in manual data gathering and reporting efforts (e.g., 20% time savings for the sales analysis team), allowing 
+      Automation of sales analysis tasks results in a significant reduction in reporting efforts ( 20% of the time saved for the sales analysis team), allowing 
       reallocation to strategic activities.
-
-    - **User Adoption:**  
-      High user adoption of the dashboards and Financial Simulator across the defined stakeholder groups, measured by usage metrics (e.g., dashboard views, report downloads).
 
     - **Improved Forecast Accuracy:**  
       Increased accuracy in sales forecasts due to the insights gained from the dashboards.
@@ -158,7 +154,7 @@
 
        Central Underperformance: Distribution channel is under-leveraged (₹75.4M sales).
 
-       South Challenges: Low physical footprint success (₹13.2M sales), requiring market analysis.
+       South : Low physical footprint success (₹13.2M sales), requiring market analysis.
     
      - E-Commerce
 
@@ -180,12 +176,13 @@
    
     - E-Commerce Momentum: Increasing contribution towards the end of the year.
 
-  3.4. Target Gap Analysis:
+  3.4. Target Gap Analysis
+  
     - Monthly Target: ₹90M.
     
     - Performance: Missed in multiple months.
   
-    - Cumulative Shortfall: Approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
+    - Cumulative shortfall of approximately ₹8M, suggesting missed opportunities or forecasting issues, potentially linked to seasonal promotions or marketing campaigns.
 
 ![Screenshot 2025-04-10 183303](https://github.com/user-attachments/assets/0b645f72-1ba0-4f46-994b-24d26dfeabfb)
 
